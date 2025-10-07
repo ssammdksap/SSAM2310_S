@@ -1,0 +1,101 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"OrderISULinks"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ConnectionObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DeviceLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "FunctionalLoc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ISUProcess"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "EquipmentNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DeviceCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DisconnectionNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Installation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Premise"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SerialNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "ConnectionObject",
+			"Key": false,
+			"_Name": "ConnectionObject_Nav"
+		},
+		{
+			"_Type": "DeviceCategory",
+			"Key": false,
+			"_Name": "DeviceCategory_Nav"
+		},
+		{
+			"_Type": "DeviceLocation",
+			"Key": false,
+			"_Name": "DeviceLocation_Nav"
+		},
+		{
+			"_Type": "Device",
+			"Key": false,
+			"_Name": "Device_Nav"
+		},
+		{
+			"_Type": "Installation",
+			"Key": false,
+			"_Name": "Installation_Nav"
+		},
+		{
+			"_Type": "Premise",
+			"Key": false,
+			"_Name": "Premise_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "Workorder_Nav"
+		}
+	],
+	"_Name": "OrderISULink"
+}

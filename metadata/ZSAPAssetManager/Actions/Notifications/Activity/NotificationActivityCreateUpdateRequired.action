@@ -1,0 +1,8 @@
+{
+    "OnFailure": "/SAPAssetManager/Rules/Common/UpdateRequiredFailed.js",
+    "OnSuccess": "/SAPAssetManager/Rules/Notifications/Activity/CreateUpdate/NotificationActivityCreateUpdateOnCommit.js",
+    "RequiredFields": "/ZSAPAssetManager/Rules/Notifications/Activity/NotificationActivityCreateUpdateRequired.js",
+    "_Type": "Action.Type.CheckRequiredFields",
+    "ShowActivityIndicator": true,
+    "ActivityIndicatorText" : " "
+}

@@ -1,0 +1,116 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"S4BusinessPartners"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AddressNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BPType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CostCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FirstName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FullName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LastName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrgName1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrgName2"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UserName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "BPNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Customer"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Vendor"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Address",
+			"Key": false,
+			"_Name": "Address_Nav"
+		},
+		{
+			"_Type": "Customer",
+			"Key": false,
+			"_Name": "Customer_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceConfirmationPartner)",
+			"Key": false,
+			"_Name": "S4ConfirmationPartner_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceConfirmation)",
+			"Key": false,
+			"_Name": "S4Confirmation_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceOrder)",
+			"Key": false,
+			"_Name": "S4OrderEmpResp_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceOrderPartner)",
+			"Key": false,
+			"_Name": "S4OrderPartner_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceOrder)",
+			"Key": false,
+			"_Name": "S4Order_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceRequest)",
+			"Key": false,
+			"_Name": "S4Request_Nav"
+		}
+	],
+	"_Name": "S4BusinessPartner"
+}

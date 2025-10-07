@@ -1,0 +1,121 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"PhysicalInventoryDocHeaders"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PhysInvNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PhysInvType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "GroupingType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "GroupingCriteria"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DocumentDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Physinventref"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "PlanCountdate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PostingBlock"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "PostingDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CountStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CountOnCreate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CountDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AdjustStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PhysInvDoc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "FiscalYear"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SpecialStock"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UpdateCountFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UserName"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(PhysicalInventoryDocItem)",
+			"Key": false,
+			"_Name": "PhysicalInventoryDocItem_Nav"
+		}
+	],
+	"_Name": "PhysicalInventoryDocHeader"
+}

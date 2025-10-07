@@ -1,0 +1,81 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DigitalSignatureObjects"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MetaName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LogStructure"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SubObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AllowComment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AllowRemark"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AllowObjectDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AllowDocumentSign"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SignatureVersion"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Application"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Object"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(DigitalSignatureHeader)",
+			"Key": false,
+			"_Name": "DigitalSignatureHeader_Nav"
+		},
+		{
+			"_Type": "Collection(DigitalSignatureLink)",
+			"Key": false,
+			"_Name": "DigitalSignatureLink_Nav"
+		},
+		{
+			"_Type": "DigitalSignatureObjectConfig",
+			"Key": false,
+			"_Name": "DigitalSignatureObjectConfig_Nav"
+		}
+	],
+	"_Name": "DigitalSignatureObject"
+}

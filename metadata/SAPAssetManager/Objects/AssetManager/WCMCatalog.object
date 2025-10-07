@@ -1,0 +1,131 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMCatalogs"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WCMApplication"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WCMDocumentHeader"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Sortfield"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Catalog"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CodeGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Code"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LongText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Checkbox"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Signature"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Valuation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Createdby"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "Createdon"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "Createdat"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChangedBy"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "Changedon"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "LastChangedat"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DatabaseAction"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Counter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Counter1"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "PMCatalogCode",
+			"Key": false,
+			"_Name": "PMCatalogCode"
+		},
+		{
+			"_Type": "WCMApplication",
+			"Key": false,
+			"_Name": "WCMApplication_Nav"
+		},
+		{
+			"_Type": "WCMDocumentHeader",
+			"Key": false,
+			"_Name": "WCMDocumentHeader_Nav"
+		}
+	],
+	"_Name": "WCMCatalog"
+}

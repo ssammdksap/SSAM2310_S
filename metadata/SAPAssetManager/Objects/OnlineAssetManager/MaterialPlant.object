@@ -1,0 +1,61 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"MaterialPlants"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MaterialNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BatchIndicator"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PurchasingGroup"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Material"
+		},
+		{
+			"_Type": "Collection(MaterialBatchStock)",
+			"Key": false,
+			"_Name": "MaterialBatchStock_Nav"
+		},
+		{
+			"_Type": "Collection(MaterialBatch)",
+			"Key": false,
+			"_Name": "MaterialBatch_Nav"
+		},
+		{
+			"_Type": "Collection(MaterialProjectStock)",
+			"Key": false,
+			"_Name": "MaterialProjectStock"
+		},
+		{
+			"_Type": "Collection(MaterialSLoc)",
+			"Key": false,
+			"_Name": "MaterialSLocs"
+		},
+		{
+			"_Type": "Collection(MaterialVendorConsignmentStock)",
+			"Key": false,
+			"_Name": "MaterialVendorConsignmentStock"
+		}
+	],
+	"_Name": "MaterialPlant"
+}

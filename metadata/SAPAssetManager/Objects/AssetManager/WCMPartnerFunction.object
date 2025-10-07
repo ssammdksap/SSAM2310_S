@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMPartnerFunctions"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PartnerFunction"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PartnerType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "WCMApplicationPartner",
+			"Key": false,
+			"_Name": "WCMApplicationPartner_Nav"
+		}
+	],
+	"_Name": "WCMPartnerFunction"
+}

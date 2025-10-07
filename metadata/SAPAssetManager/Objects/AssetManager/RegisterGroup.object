@@ -1,0 +1,56 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"RegisterGroups"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Division"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RegisterInfo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AuthorizationGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RegisterGroup"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Device",
+			"Key": false,
+			"_Name": "Devices_Nav"
+		},
+		{
+			"_Type": "Division",
+			"Key": false,
+			"_Name": "Division_Nav"
+		},
+		{
+			"_Type": "Collection(MeterReading)",
+			"Key": false,
+			"_Name": "MeterReadings_Nav"
+		},
+		{
+			"_Type": "Collection(PeriodicMeterReading)",
+			"Key": false,
+			"_Name": "PeriodicMeterReadings_Nav"
+		},
+		{
+			"_Type": "Collection(Register)",
+			"Key": false,
+			"_Name": "Registers_Nav"
+		}
+	],
+	"_Name": "RegisterGroup"
+}

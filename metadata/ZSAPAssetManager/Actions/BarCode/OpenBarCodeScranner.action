@@ -1,0 +1,7 @@
+{
+	"_Type": "Action.Type.OpenBarcodeScanner",
+	"ActionResult": {
+		"_Name": "BarcodeScanner"
+	},
+	"OnSuccess": "/ZSAPAssetManager/Rules/BarCodeScan/ZBarCodeScanResults.js"
+}

@@ -1,0 +1,91 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMApprovalProcessSegments"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Counter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SegmentCounter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EnteredBy"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CreatedOn"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "EnteredAt"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "AppFromDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "AppToDate"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "AppFromTime"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "AppToTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DeactivatedBy"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DeactivatedOn"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "DeactivatedAt"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SegmentInactive"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ApprovedBy"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "WCMApprovalProcess",
+			"Key": false,
+			"_Name": "WCMApprovalProceses"
+		}
+	],
+	"_Name": "WCMApprovalProcessSegment"
+}

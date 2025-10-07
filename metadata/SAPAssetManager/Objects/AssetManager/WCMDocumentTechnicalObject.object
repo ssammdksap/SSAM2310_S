@@ -1,0 +1,36 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMDocumentTechnicalObjects"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TechObjectInternal"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TechObjectExternal"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(WCMDocumentItem)",
+			"Key": false,
+			"_Name": "WCMDocumentItems"
+		}
+	],
+	"_Name": "WCMDocumentTechnicalObject"
+}

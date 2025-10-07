@@ -1,0 +1,121 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ChecklistAssessmentQuestions"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Language"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DisplayId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SortNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TemplateId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "AssessmentId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "GroupId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SelectedAnswerOptionId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Version"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AINObjectId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CLTemplateId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FormId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChecklistType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "QuestionId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AnswerId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Comments"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "AnswerHeader",
+			"Key": false,
+			"_Name": "AnswerHeader_Nav"
+		},
+		{
+			"_Type": "AnswerOption",
+			"Key": false,
+			"_Name": "AnswerOption_Nav"
+		},
+		{
+			"_Type": "ChecklistBusObject",
+			"Key": false,
+			"_Name": "ChecklistBusObject_Nav"
+		},
+		{
+			"_Type": "FormGroup",
+			"Key": false,
+			"_Name": "FormGroup_Nav"
+		},
+		{
+			"_Type": "FormQuestion",
+			"Key": false,
+			"_Name": "FormQuestion_Nav"
+		}
+	],
+	"_Name": "ChecklistAssessmentQuestion"
+}

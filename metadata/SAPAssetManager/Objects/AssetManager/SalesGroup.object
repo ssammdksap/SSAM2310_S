@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"SalesGroups"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SalesGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDescription"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(S4BPSalesArea)",
+			"Key": false,
+			"_Name": "S4BPSalesArea_Nav"
+		}
+	],
+	"_Name": "SalesGroup"
+}

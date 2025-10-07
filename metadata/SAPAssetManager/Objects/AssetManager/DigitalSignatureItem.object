@@ -1,0 +1,91 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DigitalSignatureItems"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Comment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "IndividualSignature"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Remark"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SignatoryFirstName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SignatoryLastName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SignerObjectOwner"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "State"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Step"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Process"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SignatureId"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": true,
+			"_Name": "Index"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Language"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TimeStamp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AuthorizationGroup"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "DigitalSignatureAuthGroup",
+			"Key": false,
+			"_Name": "DigitalSignatureAuthGroup_Nav"
+		},
+		{
+			"_Type": "DigitalSignatureHeader",
+			"Key": false,
+			"_Name": "DigitalSignatureHeader_Nav"
+		}
+	],
+	"_Name": "DigitalSignatureItem"
+}

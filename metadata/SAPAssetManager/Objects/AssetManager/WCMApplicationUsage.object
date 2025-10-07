@@ -1,0 +1,76 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMApplicationUsages"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "IntNoRange"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ExtNoRange"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ViewProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UsageAutGen"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DescriptUsage"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "Offset"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "Validity"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "Extension"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "MaxExtension"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UsageType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Usage"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(WCMApplication)",
+			"Key": false,
+			"_Name": "WCMApplications"
+		}
+	],
+	"_Name": "WCMApplicationUsage"
+}

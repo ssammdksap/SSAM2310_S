@@ -1,0 +1,34 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"InventoryObjectItems"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "GenericObjectId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "IMObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectIdExtn"
+		}
+	],
+	"_Name": "InventoryObjectItem"
+}

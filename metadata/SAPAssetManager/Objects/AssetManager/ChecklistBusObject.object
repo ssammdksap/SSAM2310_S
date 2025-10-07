@@ -1,0 +1,81 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ChecklistBusObjects"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DisplayId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TemplateId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "AssessmentId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocIdIntern"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FormId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChecklistTemplateOrder"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(ChecklistAssessmentQuestion)",
+			"Key": false,
+			"_Name": "AssessmentQuestion_Nav"
+		},
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "Equipment_Nav"
+		},
+		{
+			"_Type": "Form",
+			"Key": false,
+			"_Name": "Form_Nav"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FuncLoc_Nav"
+		}
+	],
+	"_Name": "ChecklistBusObject"
+}

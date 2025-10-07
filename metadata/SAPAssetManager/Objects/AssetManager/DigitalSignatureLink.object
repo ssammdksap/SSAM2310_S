@@ -1,0 +1,101 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DigitalSignatureLinks"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Strategy"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Application"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Object"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectGroup1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SignatureId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Order"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Notification"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Operation"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "DigitalSignatureApplication",
+			"Key": false,
+			"_Name": "DigitalSignatureApplication_Nav"
+		},
+		{
+			"_Type": "DigitalSignatureHeader",
+			"Key": false,
+			"_Name": "DigitalSignatureHeader_Nav"
+		},
+		{
+			"_Type": "DigitalSignatureObject",
+			"Key": false,
+			"_Name": "DigitalSignatureObject_Nav"
+		},
+		{
+			"_Type": "DigitalSignatureStrategy",
+			"Key": false,
+			"_Name": "DigitalSignatureStrategy_Nav"
+		},
+		{
+			"_Type": "MyNotificationHeader",
+			"Key": false,
+			"_Name": "NotifHeader_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "WorkOrderHeader_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "WorkOrderOperation_Nav"
+		}
+	],
+	"_Name": "DigitalSignatureLink"
+}

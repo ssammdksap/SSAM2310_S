@@ -1,0 +1,301 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMRequirements"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HotWorkA"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HotWorkB"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Entry"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Isolation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CmHnSystems"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ExtingMedia"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FireWatch"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ExternalBodies"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Instruction"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Equipment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InitialList"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SafetyStaff"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "More"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SecureInstall"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PressTesting"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OpenSea"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HazardousSubs"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RadioactMatl"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Wells"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Explosives"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LiftingOps"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OtherActiv"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Nightwork"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkatHeight"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OverheadWork"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Replacement"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Manholes"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CleaningWork"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DemolitionWork"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Ventilation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WaterSupply"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Work"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SimultanWorks"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RestructWork"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PaintingWork"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Checking"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OtherWork"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Depress"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DrngEmptg"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ClngHCFreeing"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "VentgExtraVent"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OilandGas"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Radiation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RegularInsp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "GasMeas"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Fire"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "GuardRadio"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BlockCover"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BarriersSigns"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PA"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LocateEarth"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReqmtsSea"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReqmtsHeight"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HSEDatasheet"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "JSA"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LockoutTagout"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "WCMApplication",
+			"Key": false,
+			"_Name": "WCMApplications"
+		}
+	],
+	"_Name": "WCMRequirement"
+}

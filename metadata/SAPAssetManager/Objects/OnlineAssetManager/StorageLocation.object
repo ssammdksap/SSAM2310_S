@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"StorageLocations"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "StorageLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorageLocationDesc"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(PhysicalInventoryDocItem)",
+			"Key": false,
+			"_Name": "PhysicalInventoryDocItem_Nav"
+		}
+	],
+	"_Name": "StorageLocation"
+}

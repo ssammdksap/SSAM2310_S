@@ -1,0 +1,171 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"SurveyLists"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Client"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SurveyID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SurveyVersion"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SurveyGUID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Language"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Persistent"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Query"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BW"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "VersCreation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Delete"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Change"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Callback"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Callback1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Public"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValidFrom"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValidTo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SchemaVersion"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Appl"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SurveyValuesGUID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SurveyVersion1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TestRanCorrectly"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CreatedOn"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Createdby"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChangedOn"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Changedby"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TRANSL_EXIST"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Language1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDescriptn"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SurveyQuestionText"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "SurveyDefinition",
+			"Key": false,
+			"_Name": "SurveyList_SurveyDef"
+		}
+	],
+	"_Name": "SurveyList"
+}

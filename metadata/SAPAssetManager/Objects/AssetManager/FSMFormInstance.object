@@ -1,0 +1,191 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"FSMFormInstances"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "S4ServiceOrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "S4ServiceItemNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Id"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrgLevel"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Owners"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Content"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SyncObjectKPIs"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Template"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Language"
+		},
+		{
+			"_Type": "Edm.Boolean",
+			"Key": false,
+			"_Name": "Mandatory"
+		},
+		{
+			"_Type": "Edm.Boolean",
+			"Key": false,
+			"_Name": "Inactive"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "DataVersion"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LastChanged"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CreatePerson"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ExternalId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Groups"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Branches"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "Version"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CreatedTimeStamp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ResponsiblePerson"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UdfMetaGroups"
+		},
+		{
+			"_Type": "Edm.Boolean",
+			"Key": false,
+			"_Name": "Closed"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Location"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UdfValues"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LastChangedBy"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChecklistId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SyncStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActivityId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkOrder"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Operation"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "LastChangedTimestamp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "S4ObjectType"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "FSMFormTemplate",
+			"Key": false,
+			"_Name": "FSMFormTemplate_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "MyWorkOrderOperation_Nav"
+		},
+		{
+			"_Type": "S4ServiceItem",
+			"Key": false,
+			"_Name": "S4ServiceItem_Nav"
+		}
+	],
+	"_Name": "FSMFormInstance"
+}

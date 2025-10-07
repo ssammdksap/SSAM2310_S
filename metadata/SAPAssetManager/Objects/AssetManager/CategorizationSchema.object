@@ -1,0 +1,216 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"CategorizationSchemas"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PareGuid32"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CategoryGuid32"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SchemaGuid32"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Code"
+		},
+		{
+			"_Type": "Edm.Guid",
+			"Key": true,
+			"_Name": "SchemaGuid"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SchemaID"
+		},
+		{
+			"_Type": "Edm.Guid",
+			"Key": true,
+			"_Name": "CategoryGuid"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CategoryID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CategoryName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CategoryDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CategoryLevel"
+		},
+		{
+			"_Type": "Edm.Guid",
+			"Key": false,
+			"_Name": "PareGuid"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NodeLeaf"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SubjectProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CodeText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CodeCatalog"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CodeGroup"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(S4ServiceConfirmationItem)",
+			"Key": false,
+			"_Name": "S4ConfItemCat1_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceConfirmationItem)",
+			"Key": false,
+			"_Name": "S4ConfItemCat2_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceConfirmationItem)",
+			"Key": false,
+			"_Name": "S4ConfItemCat3_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceConfirmationItem)",
+			"Key": false,
+			"_Name": "S4ConfItemCat4_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceConfirmation)",
+			"Key": false,
+			"_Name": "S4ConfirmationCat1_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceConfirmation)",
+			"Key": false,
+			"_Name": "S4ConfirmationCat2_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceConfirmation)",
+			"Key": false,
+			"_Name": "S4ConfirmationCat3_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceConfirmation)",
+			"Key": false,
+			"_Name": "S4ConfirmationCat4_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceOrder)",
+			"Key": false,
+			"_Name": "S4OrderCat1_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceOrder)",
+			"Key": false,
+			"_Name": "S4OrderCat2_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceOrder)",
+			"Key": false,
+			"_Name": "S4OrderCat3_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceOrder)",
+			"Key": false,
+			"_Name": "S4OrderCat4_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceRequest)",
+			"Key": false,
+			"_Name": "S4RequestCat1_1_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceRequest)",
+			"Key": false,
+			"_Name": "S4RequestCat1_2_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceRequest)",
+			"Key": false,
+			"_Name": "S4RequestCat2_1_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceRequest)",
+			"Key": false,
+			"_Name": "S4RequestCat2_2_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceRequest)",
+			"Key": false,
+			"_Name": "S4RequestCat3_1_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceRequest)",
+			"Key": false,
+			"_Name": "S4RequestCat3_2_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceRequest)",
+			"Key": false,
+			"_Name": "S4RequestCat4_1_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceRequest)",
+			"Key": false,
+			"_Name": "S4RequestCat4_2_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceItem)",
+			"Key": false,
+			"_Name": "S4ServItemCat1_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceItem)",
+			"Key": false,
+			"_Name": "S4ServItemCat2_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceItem)",
+			"Key": false,
+			"_Name": "S4ServItemCat3_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceItem)",
+			"Key": false,
+			"_Name": "S4ServItemCat4_Nav"
+		}
+	],
+	"_Name": "CategorizationSchema"
+}

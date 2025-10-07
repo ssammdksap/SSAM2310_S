@@ -1,0 +1,126 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"InboundDeliveries"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ActualGoodsMvtDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShippingPoint"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "NumPackages"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReceivingPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "GoodsMvtStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShippingConditions"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DeliveryNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WeightUnit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Vendor"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "TotalWeight"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WMStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OverallStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DeliveryBlock"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DeliveryDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DeliveryType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DeliveryPriority"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UnloadingPoint"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "BlockingStatus",
+			"Key": false,
+			"_Name": "BlockingStatus_Nav"
+		},
+		{
+			"_Type": "DeliveryPriority",
+			"Key": false,
+			"_Name": "DeliveryPriority_Nav"
+		},
+		{
+			"_Type": "Collection(InboundDeliveryItem)",
+			"Key": false,
+			"_Name": "Items_Nav"
+		},
+		{
+			"_Type": "Collection(MaterialDocItem)",
+			"Key": false,
+			"_Name": "MaterialDocItem_Nav"
+		},
+		{
+			"_Type": "MyInventoryObject",
+			"Key": false,
+			"_Name": "MyInventoryObject_Nav"
+		}
+	],
+	"_Name": "InboundDelivery"
+}

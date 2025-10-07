@@ -1,0 +1,201 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMApprovals"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActualSystemStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WCMApproval"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OverallCondtn"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "RecallTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Unit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Priority"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLoc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Equipment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjListExists"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Train"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WCMApplication"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Usage"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LongText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Delete"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RQTextExists"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CatalogExists"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlannerGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkCenterObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkCenterID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AuthorizGroup"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ValidFrom"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "ValidFrmTime"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ValidTo"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "ValidToTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CatalogTwoExists"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "MyEquipments"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "MyFunctionalLocations"
+		},
+		{
+			"_Type": "Collection(WCMApprovalApplication)",
+			"Key": false,
+			"_Name": "WCMApprovalApplications"
+		},
+		{
+			"_Type": "Collection(WCMApprovalAttachment)",
+			"Key": false,
+			"_Name": "WCMApprovalAttachments"
+		},
+		{
+			"_Type": "Collection(WCMApprovalLongtext)",
+			"Key": false,
+			"_Name": "WCMApprovalLongtexts"
+		},
+		{
+			"_Type": "Collection(WCMApprovalOrder)",
+			"Key": false,
+			"_Name": "WCMApprovalOrders"
+		},
+		{
+			"_Type": "Collection(WCMApprovalPartner)",
+			"Key": false,
+			"_Name": "WCMApprovalPartners"
+		},
+		{
+			"_Type": "Collection(WCMSystemStatus)",
+			"Key": false,
+			"_Name": "WCMSystemStatuses"
+		},
+		{
+			"_Type": "Collection(WCMUserStatus)",
+			"Key": false,
+			"_Name": "WCMUserStatuses"
+		},
+		{
+			"_Type": "WorkCenter",
+			"Key": false,
+			"_Name": "WorkCenters"
+		}
+	],
+	"_Name": "WCMApproval"
+}

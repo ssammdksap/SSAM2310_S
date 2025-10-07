@@ -1,0 +1,51 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ServiceOrgs"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ServiceOrg"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(S4ServiceContractItem)",
+			"Key": false,
+			"_Name": "S4ServiceContractItem_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceContract)",
+			"Key": false,
+			"_Name": "S4ServiceContract_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceItem)",
+			"Key": false,
+			"_Name": "S4ServiceItems_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceOrder)",
+			"Key": false,
+			"_Name": "S4ServiceOrders_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceRequest)",
+			"Key": false,
+			"_Name": "S4ServiceRequest_Nav"
+		}
+	],
+	"_Name": "ServiceOrg"
+}

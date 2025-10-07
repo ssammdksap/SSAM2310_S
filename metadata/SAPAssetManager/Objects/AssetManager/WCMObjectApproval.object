@@ -1,0 +1,119 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMObjectApprovals"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WCMObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Permit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HierarchyLevel"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReltoProcessFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Direction"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CopyAutomaticallyFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AppMandatoryFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RevokeApprovalFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ApprovalStatusFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SysStIssue"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AssgmtRequiredFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "IssueAutomaticFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Agent"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UsrStIssue"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RevokingStatGrp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CopyApprovalsFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValidityReqd"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Usage"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UsageType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PermitText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PlanningPlant"
+		}
+	],
+	"_Name": "WCMObjectApproval"
+}

@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMApplicationOrders"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Order"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WCMApplication"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "MyWorkOrderHeaders"
+		},
+		{
+			"_Type": "WCMApplication",
+			"Key": false,
+			"_Name": "WCMApplications"
+		}
+	],
+	"_Name": "WCMApplicationOrder"
+}

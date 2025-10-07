@@ -1,0 +1,36 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ConsequenceGroups"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "GroupId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PrioritizationProfileId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(ConsequenceCategory)",
+			"Key": false,
+			"_Name": "ConsequenceCategory_Nav"
+		},
+		{
+			"_Type": "PrioritizationProfile",
+			"Key": false,
+			"_Name": "PrioritizationProfile_Nav"
+		}
+	],
+	"_Name": "ConsequenceGroup"
+}

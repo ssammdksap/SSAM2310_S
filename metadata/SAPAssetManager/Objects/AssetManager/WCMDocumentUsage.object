@@ -1,0 +1,131 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMDocumentUsages"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Usage"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UsageDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Tag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PrintTag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UntagTemp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PrintTestTag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Untag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BlockApproval"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BlApprTag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BlApprTU"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BlAppUntag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Specification"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OptnProtection"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MultipleTag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MobProcessing"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Step"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MDTagging"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UsageType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "IntNoRange"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ExtNoRange"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ViewProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UsageAutGen"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(WCMDocumentHeader)",
+			"Key": false,
+			"_Name": "WCMDocumentHeaders"
+		}
+	],
+	"_Name": "WCMDocumentUsage"
+}

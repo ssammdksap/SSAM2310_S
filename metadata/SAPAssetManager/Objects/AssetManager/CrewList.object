@@ -1,0 +1,66 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"CrewLists"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "OriginTimeStamp"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CreationTimeStamp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UserGuid"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CrewListNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SAPUserName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ListType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ListReferenceKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CompanyCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "CrewId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(CrewListItem)",
+			"Key": false,
+			"_Name": "CrewListItems"
+		}
+	],
+	"_Name": "CrewList"
+}

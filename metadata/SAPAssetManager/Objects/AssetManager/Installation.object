@@ -1,0 +1,61 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"Installations"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Division"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InstallationStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InstallationType"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "InstallationDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Premise"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Installation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PointOfDeliveryId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Division",
+			"Key": false,
+			"_Name": "Division_Nav"
+		},
+		{
+			"_Type": "Collection(OrderISULink)",
+			"Key": false,
+			"_Name": "OrderISULink_Nav"
+		},
+		{
+			"_Type": "Premise",
+			"Key": false,
+			"_Name": "Premise_Nav"
+		}
+	],
+	"_Name": "Installation"
+}

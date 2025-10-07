@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"PhysicalInventoryStockTypes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Language"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Stocktype"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StockTypeText"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "PhysicalInventoryDocItem",
+			"Key": false,
+			"_Name": "PhysicalInventoryDocItem_Nav"
+		}
+	],
+	"_Name": "PhysicalInventoryStockType"
+}

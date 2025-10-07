@@ -1,0 +1,64 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"SurveyDetCriterias"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "CriteriaSet"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Category"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Systemstatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesOrgID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DistributionChannel"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Division"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TERRITORY"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TARGETGROUP"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		}
+	],
+	"_Name": "SurveyDetCriteria"
+}

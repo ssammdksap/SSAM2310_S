@@ -1,0 +1,66 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DisconnectionDocuments"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DocNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RefObjType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DisconnectReason"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ProcessVariant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RefObjKey"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(DisconnectionActivity)",
+			"Key": false,
+			"_Name": "DisconnectActivity_Nav"
+		},
+		{
+			"_Type": "DisconnectDocStatus",
+			"Key": false,
+			"_Name": "DisconnectDocStatus_Nav"
+		},
+		{
+			"_Type": "Collection(DisconnectionObject)",
+			"Key": false,
+			"_Name": "DisconnectObject_Nav"
+		},
+		{
+			"_Type": "DisconnectionReason",
+			"Key": false,
+			"_Name": "DisconnectReason_Nav"
+		},
+		{
+			"_Type": "ProcessVariant",
+			"Key": false,
+			"_Name": "ProcessVariant_Nav"
+		}
+	],
+	"_Name": "DisconnectionDocument"
+}

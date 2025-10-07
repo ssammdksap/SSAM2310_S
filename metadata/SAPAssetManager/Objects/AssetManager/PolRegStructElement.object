@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"PolRegStructElements"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PolRegStructElemText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Country"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PolRegStructElement"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(ConnectionObject)",
+			"Key": false,
+			"_Name": "ConnectionObjects_Nav"
+		}
+	],
+	"_Name": "PolRegStructElement"
+}

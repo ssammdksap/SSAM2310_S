@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DigitalSignatureMethods"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MethodDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Method"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(DigitalSignatureHeader)",
+			"Key": false,
+			"_Name": "DigitalSignatureHeader_Nav"
+		},
+		{
+			"_Type": "Collection(DigitalSignatureStrategy)",
+			"Key": false,
+			"_Name": "DigitalSignatureStrategy_Nav"
+		}
+	],
+	"_Name": "DigitalSignatureMethod"
+}

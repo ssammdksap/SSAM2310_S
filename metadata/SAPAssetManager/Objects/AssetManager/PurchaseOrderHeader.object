@@ -1,0 +1,71 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"PurchaseOrderHeaders"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Vendor"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchaseOrderId"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DocumentDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SupplyingPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentType"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MaterialDocItem)",
+			"Key": false,
+			"_Name": "MaterialDocItem_Nav"
+		},
+		{
+			"_Type": "MyInventoryObject",
+			"Key": false,
+			"_Name": "MyInventoryObject_Nav"
+		},
+		{
+			"_Type": "Collection(PurchaseOrderHeaderLongText)",
+			"Key": false,
+			"_Name": "PurchaseOrderHeaderLongText_Nav"
+		},
+		{
+			"_Type": "Collection(PurchaseOrderItem)",
+			"Key": false,
+			"_Name": "PurchaseOrderItem_Nav"
+		},
+		{
+			"_Type": "Vendor",
+			"Key": false,
+			"_Name": "Vendor_Nav"
+		}
+	],
+	"_Name": "PurchaseOrderHeader"
+}

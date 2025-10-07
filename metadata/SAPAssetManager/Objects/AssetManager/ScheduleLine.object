@@ -1,0 +1,61 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ScheduleLines"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Batch"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "DeliveredQuantity"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DeliveryDate"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "IssuedQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ScheduleLine"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchaseOrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReservationNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "PurchaseOrderItem",
+			"Key": false,
+			"_Name": "PurchaseOrderItem_Nav"
+		},
+		{
+			"_Type": "ReservationHeader",
+			"Key": false,
+			"_Name": "ReservationHeader_Nav"
+		}
+	],
+	"_Name": "ScheduleLine"
+}

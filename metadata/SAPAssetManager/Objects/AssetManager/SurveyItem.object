@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"SurveyItems"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SurveyID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SurveyVersion"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AnswerId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "SurveyDefinition",
+			"Key": false,
+			"_Name": "SurveyDefinition_SurveyItem"
+		}
+	],
+	"_Name": "SurveyItem"
+}

@@ -1,0 +1,56 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"S4ServiceErrorMessages"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectGUID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MessageNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Message"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MessageType"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "S4ServiceConfirmation",
+			"Key": false,
+			"_Name": "S4ServiceConfirmation_Nav"
+		},
+		{
+			"_Type": "S4ServiceOrder",
+			"Key": false,
+			"_Name": "S4ServiceOrder_Nav"
+		},
+		{
+			"_Type": "S4ServiceRequest",
+			"Key": false,
+			"_Name": "S4ServiceRequest_Nav"
+		}
+	],
+	"_Name": "S4ServiceErrorMessage"
+}

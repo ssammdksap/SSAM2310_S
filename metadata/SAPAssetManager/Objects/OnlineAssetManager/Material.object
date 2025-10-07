@@ -1,0 +1,91 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"Materials"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MaterialNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ManufacturerPartNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Manufacturer"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BaseUOM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SerialNumberProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaterialType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ProductHierarchy"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MaterialBOM)",
+			"Key": false,
+			"_Name": "MaterialBOM_Nav"
+		},
+		{
+			"_Type": "Collection(MaterialBatchStock)",
+			"Key": false,
+			"_Name": "MaterialBatchStock_Nav"
+		},
+		{
+			"_Type": "Collection(MaterialBatch)",
+			"Key": false,
+			"_Name": "MaterialBatch_Nav"
+		},
+		{
+			"_Type": "Collection(MaterialPlant)",
+			"Key": false,
+			"_Name": "MaterialPlants"
+		},
+		{
+			"_Type": "Collection(MaterialProjectStock)",
+			"Key": false,
+			"_Name": "MaterialProjectStock"
+		},
+		{
+			"_Type": "Collection(MaterialSLoc)",
+			"Key": false,
+			"_Name": "MaterialSLocs"
+		},
+		{
+			"_Type": "Collection(MaterialUOM)",
+			"Key": false,
+			"_Name": "MaterialUOMs"
+		},
+		{
+			"_Type": "Collection(MaterialVendorConsignmentStock)",
+			"Key": false,
+			"_Name": "MaterialVendorConsignmentStock"
+		}
+	],
+	"_Name": "Material"
+}

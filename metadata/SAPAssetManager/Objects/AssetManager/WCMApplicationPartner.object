@@ -1,0 +1,101 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMApplicationPartners"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PartnerNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AddressNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BPNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OldPartner"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonnelNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AddressExists"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WCMApplication"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PartnerFunction"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Counter"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "AddressAtWork",
+			"Key": false,
+			"_Name": "AddressAtWork_Nav"
+		},
+		{
+			"_Type": "Address",
+			"Key": false,
+			"_Name": "Address_Nav"
+		},
+		{
+			"_Type": "BusinessPartner",
+			"Key": false,
+			"_Name": "BusinessPartner_Nav"
+		},
+		{
+			"_Type": "Employee",
+			"Key": false,
+			"_Name": "Employee_Nav"
+		},
+		{
+			"_Type": "WCMApplication",
+			"Key": false,
+			"_Name": "WCMApplications"
+		},
+		{
+			"_Type": "WCMPartnerFunction",
+			"Key": false,
+			"_Name": "WCMPartnerFunction_Nav"
+		}
+	],
+	"_Name": "WCMApplicationPartner"
+}

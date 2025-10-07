@@ -1,0 +1,121 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"BusinessPartners"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrgName1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UserName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BPType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CostCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrgName2"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AddressNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FullName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LastName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FirstName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "BPNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Address",
+			"Key": false,
+			"_Name": "Address"
+		},
+		{
+			"_Type": "AddressAtWork",
+			"Key": false,
+			"_Name": "AddressAtWork"
+		},
+		{
+			"_Type": "Customer",
+			"Key": false,
+			"_Name": "Customer_Nav"
+		},
+		{
+			"_Type": "MyEquipPartner",
+			"Key": false,
+			"_Name": "EquipmentPartner"
+		},
+		{
+			"_Type": "MyFuncLocPartner",
+			"Key": false,
+			"_Name": "FunctionalLocPartner"
+		},
+		{
+			"_Type": "MyNotificationPartner",
+			"Key": false,
+			"_Name": "NotificationPartner"
+		},
+		{
+			"_Type": "Vendor",
+			"Key": false,
+			"_Name": "Vendor_Nav"
+		},
+		{
+			"_Type": "WCMApplicationPartner",
+			"Key": false,
+			"_Name": "WCMApplicationPartner_Nav"
+		},
+		{
+			"_Type": "WCMApprovalPartner",
+			"Key": false,
+			"_Name": "WCMApprovalPartner_Nav"
+		},
+		{
+			"_Type": "WCMDocumentPartner",
+			"Key": false,
+			"_Name": "WCMDocumentPartner_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderPartner",
+			"Key": false,
+			"_Name": "WorkOrderPartner"
+		}
+	],
+	"_Name": "BusinessPartner"
+}

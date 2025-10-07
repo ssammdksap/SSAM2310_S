@@ -1,0 +1,61 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"FormGroups"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LongDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DisplayId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "GroupId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HasDependentObjects"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrganizationName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ImageURL"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(ChecklistAssessmentQuestion)",
+			"Key": false,
+			"_Name": "ChecklistQuestion_Nav"
+		},
+		{
+			"_Type": "Collection(FormTemplateGroup)",
+			"Key": false,
+			"_Name": "TemplateGroups_Nav"
+		}
+	],
+	"_Name": "FormGroup"
+}

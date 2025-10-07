@@ -1,0 +1,51 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ProductionOrderOperations"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RoutingNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Counter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Sequence"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TaskNode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "ProductionOrderHeader",
+			"Key": false,
+			"_Name": "ProductionOrderHeader_Nav"
+		}
+	],
+	"_Name": "ProductionOrderOperation"
+}

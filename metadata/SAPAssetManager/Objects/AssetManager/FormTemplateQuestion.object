@@ -1,0 +1,61 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"FormTemplateQuestions"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SortNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "GroupId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TemplateId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DisplayId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "QuestionId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Version"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AnswerId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "FormQuestion",
+			"Key": false,
+			"_Name": "FormQuestion_Nav"
+		},
+		{
+			"_Type": "FormTemplateGroup",
+			"Key": false,
+			"_Name": "TemplateGroup_Nav"
+		}
+	],
+	"_Name": "FormTemplateQuestion"
+}

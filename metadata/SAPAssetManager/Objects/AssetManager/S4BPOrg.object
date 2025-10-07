@@ -1,0 +1,41 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"S4BPOrgs"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "BusinessPartner"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TransactionType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrgId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrgType"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "SalesOrg",
+			"Key": false,
+			"_Name": "SalesOrg_Nav"
+		},
+		{
+			"_Type": "ServiceOrg",
+			"Key": false,
+			"_Name": "ServiceOrg_Nav"
+		}
+	],
+	"_Name": "S4BPOrg"
+}

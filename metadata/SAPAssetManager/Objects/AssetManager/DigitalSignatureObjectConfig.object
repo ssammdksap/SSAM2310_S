@@ -1,0 +1,41 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DigitalSignatureObjectConfigs"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TableFields"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Object"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Application"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "DigitalSignatureApplication",
+			"Key": false,
+			"_Name": "DigitalSignatureApplication_Nav"
+		},
+		{
+			"_Type": "DigitalSignatureObject",
+			"Key": false,
+			"_Name": "DigitalSignatureObject_Nav"
+		}
+	],
+	"_Name": "DigitalSignatureObjectConfig"
+}

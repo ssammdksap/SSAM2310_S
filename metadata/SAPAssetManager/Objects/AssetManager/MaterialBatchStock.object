@@ -1,0 +1,56 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"MaterialBatchStockSet"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MaterialNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "StorageLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Batch"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "UnrestrictedQuantity"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MaterialPlant",
+			"Key": false,
+			"_Name": "MaterialPlant_Nav"
+		},
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Material_Nav"
+		},
+		{
+			"_Type": "Collection(MyEquipSerialNumber)",
+			"Key": false,
+			"_Name": "MyEquipSerialNumber_Nav"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderComponent)",
+			"Key": false,
+			"_Name": "MyWorkOrderComponent_Nav"
+		}
+	],
+	"_Name": "MaterialBatchStock"
+}

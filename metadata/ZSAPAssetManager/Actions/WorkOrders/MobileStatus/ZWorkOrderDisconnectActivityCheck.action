@@ -1,0 +1,6 @@
+{
+	"_Type": "Action.Type.Message",
+	"Message": "$(L,'discconnect_activity_Check')",
+	"Title": "$(L,disconnectExceptionTitle)",
+	"OKCaption": "$(L,ok)"
+}

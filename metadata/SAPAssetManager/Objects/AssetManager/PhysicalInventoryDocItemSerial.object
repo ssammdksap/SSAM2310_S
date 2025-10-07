@@ -1,0 +1,36 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"PhysicalInventoryDocItemSerials"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SerialNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PhysInvDoc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "FiscalYear"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Item"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "PhysicalInventoryDocItem",
+			"Key": false,
+			"_Name": "PhysicalInventoryDocItem_Nav"
+		}
+	],
+	"_Name": "PhysicalInventoryDocItemSerial"
+}

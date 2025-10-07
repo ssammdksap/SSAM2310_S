@@ -1,0 +1,41 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"StreetRouteConnectionObjects"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.Int16",
+			"Key": true,
+			"_Name": "DeviceSet"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ConnectionObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MeterReadingUnit"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "ConnectionObject",
+			"Key": false,
+			"_Name": "ConnectionObject_Nav"
+		},
+		{
+			"_Type": "MeterReadingUnit",
+			"Key": false,
+			"_Name": "MeterReadingUnit_Nav"
+		},
+		{
+			"_Type": "Collection(StreetRoute)",
+			"Key": false,
+			"_Name": "StreetRoute_Nav"
+		}
+	],
+	"_Name": "StreetRouteConnectionObject"
+}

@@ -1,0 +1,19 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMOpConditions"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OpCondition"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OpConditionText"
+		}
+	],
+	"_Name": "WCMOpCondition"
+}

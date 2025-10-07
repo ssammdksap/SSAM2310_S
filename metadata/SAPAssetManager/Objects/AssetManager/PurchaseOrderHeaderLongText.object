@@ -1,0 +1,46 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"PurchaseOrderHeaderLongTexts"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchaseOrderNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NewTextString"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextString"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextObjType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TextId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectKey"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "PurchaseOrderHeader",
+			"Key": false,
+			"_Name": "PurchaseOrder_Nav"
+		}
+	],
+	"_Name": "PurchaseOrderHeaderLongText"
+}

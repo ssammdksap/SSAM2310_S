@@ -1,0 +1,164 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMObjects"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BlAppStatGrp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TemplateObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BlockStatGrp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Usage"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DisplayDialogBox"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TemplateSubObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BORObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CatalogProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ListType2"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Catalog2"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ListType1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Catalog1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PartnDetProc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ExtNoRange"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "IntNoRange"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Client"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WCMObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CanBeCreated"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChangePossible"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CMRestricted"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Direction"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Create"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Change"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Display"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Choose"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PriorityType"
+		}
+	],
+	"_Name": "WCMObject"
+}

@@ -1,0 +1,44 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ActivityReasons"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LossOfCertification"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LossOfLotMembership"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PermitForInstallation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PermitForRemoval"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PermitForReplace"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ActivityReason"
+		}
+	],
+	"_Name": "ActivityReason"
+}

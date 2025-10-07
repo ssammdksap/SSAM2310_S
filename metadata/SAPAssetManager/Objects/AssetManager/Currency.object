@@ -1,0 +1,61 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"Currencies"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WAERS"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ISOCD"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ALTWR"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "GDATU"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "XPRIMARY"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SPRAS"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "KTEXT"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(S4ServiceConfirmationItem)",
+			"Key": false,
+			"_Name": "S4ConfirmItems_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceContractItem)",
+			"Key": false,
+			"_Name": "S4ContractItems_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceItem)",
+			"Key": false,
+			"_Name": "S4ServiceItems_Nav"
+		}
+	],
+	"_Name": "Currency"
+}

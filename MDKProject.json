@@ -1,0 +1,30 @@
+{
+  "AppName": "SSAM2310QACR1",
+  "AppDisplayName": "SAM2310QA",
+  "AppVersion": "2310.0.5",
+  "BundleID": "com.sap.mobile.apps.assetmanager.sewacr",
+  "Externals": [
+    "@nativescript/geolocation",
+    "extension-LocationService",
+    "extension-GenericWebView",
+    "uuid",
+    "@nstudio/nativescript-dynatrace",
+    "@nativescript/core/accessibility",
+    "xml-js",
+    "stream",
+    "buffer",
+    "emitter"
+  ],
+  "NSPlugins": ["@nativescript/geolocation@8.3.1", "@nstudio/nativescript-dynatrace@1.0.1"],
+  "NPMPlugins": [
+    "uuid@9.0.1",
+    "nativescript-dev-xcode",
+    "@nativescript/hook",
+    "xml-js",
+    "stream",
+    "buffer",
+    "emitter"
+  ],
+  "UrlScheme": "samclient",
+  "BaseProject": "SAPAssetManager"
+}

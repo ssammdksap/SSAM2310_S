@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DigitalSignatureAuthGroups"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ApplicationId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AuthorizationGroupDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "AuthorizationGroup"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(DigitalSignatureItem)",
+			"Key": false,
+			"_Name": "DigitalSignatureItem_Nav"
+		}
+	],
+	"_Name": "DigitalSignatureAuthGroup"
+}

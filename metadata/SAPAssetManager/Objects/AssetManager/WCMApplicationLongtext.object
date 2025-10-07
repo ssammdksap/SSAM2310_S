@@ -1,0 +1,39 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMApplicationLongtexts"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TextName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Textobject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextString"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Application"
+		}
+	],
+	"_Name": "WCMApplicationLongtext"
+}

@@ -1,0 +1,24 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"TOTPDeviceValidates"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.Int32",
+			"Key": true,
+			"_Name": "DeviceId"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "TOTP"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Passphrase"
+		}
+	],
+	"_Name": "TOTPDeviceValidate"
+}

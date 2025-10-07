@@ -1,0 +1,61 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"SalesRespOrgs"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SalesRespOrg"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDescription"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(S4BPSalesArea)",
+			"Key": false,
+			"_Name": "S4BPSalesArea_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceConfirmationItem)",
+			"Key": false,
+			"_Name": "S4ServiceConfirmationItem_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceConfirmation)",
+			"Key": false,
+			"_Name": "S4ServiceConfirmation_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceContract)",
+			"Key": false,
+			"_Name": "S4ServiceContract_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceItem)",
+			"Key": false,
+			"_Name": "S4ServiceItems_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceOrder)",
+			"Key": false,
+			"_Name": "S4ServiceOrders_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceRequest)",
+			"Key": false,
+			"_Name": "S4ServiceRequest_Nav"
+		}
+	],
+	"_Name": "SalesRespOrg"
+}

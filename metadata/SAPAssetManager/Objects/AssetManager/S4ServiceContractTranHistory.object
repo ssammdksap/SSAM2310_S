@@ -1,0 +1,76 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"S4ServiceContractTranHistories"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HeaderObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RelatedHeaderObjType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RelatedItemNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RelatedObjectID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RelatedObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HeaderID"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "S4ServiceContractItem",
+			"Key": false,
+			"_Name": "S4ServiceContractItem_Nav"
+		},
+		{
+			"_Type": "S4ServiceContract",
+			"Key": false,
+			"_Name": "S4ServiceContract_Nav"
+		},
+		{
+			"_Type": "S4ServiceItem",
+			"Key": false,
+			"_Name": "S4ServiceItems_Nav"
+		},
+		{
+			"_Type": "S4ServiceOrder",
+			"Key": false,
+			"_Name": "S4ServiceOrders_Nav"
+		}
+	],
+	"_Name": "S4ServiceContractTranHistory"
+}

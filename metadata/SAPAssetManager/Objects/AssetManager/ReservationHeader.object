@@ -1,0 +1,106 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ReservationHeaders"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ReservationNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ControllingArea"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesOrderItem"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesOrderSchedule"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReceivingPlant"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ReservationDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReceivingStorageLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CostCenter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PurchaseOrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WBSElement"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Network"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesOrder"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MaterialDocItem)",
+			"Key": false,
+			"_Name": "MaterialDocItem_Nav"
+		},
+		{
+			"_Type": "MyInventoryObject",
+			"Key": false,
+			"_Name": "MyInventoryObject_Nav"
+		},
+		{
+			"_Type": "Collection(ReservationItem)",
+			"Key": false,
+			"_Name": "ReservationItem_Nav"
+		},
+		{
+			"_Type": "Collection(ScheduleLine)",
+			"Key": false,
+			"_Name": "ScheduleLine_Nav"
+		}
+	],
+	"_Name": "ReservationHeader"
+}

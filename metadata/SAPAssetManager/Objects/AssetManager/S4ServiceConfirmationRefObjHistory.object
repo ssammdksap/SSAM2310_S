@@ -1,0 +1,116 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"S4ServiceConfirmationRefObjHistories"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "PostingDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FinalConfirmation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LifeCycleStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TechObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ReferenceType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MainObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FLocID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ProductID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Priority"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "RequestedStart"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "RequestedEnd"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SoldToParty"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ContactPerson"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "S4ServiceConfirmationRefObjHistoryText",
+			"Key": false,
+			"_Name": "LongText_Nav"
+		},
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Material_Nav"
+		},
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "MyEquipment_Nav"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "MyFunctionalLocation_Nav"
+		}
+	],
+	"_Name": "S4ServiceConfirmationRefObjHistory"
+}

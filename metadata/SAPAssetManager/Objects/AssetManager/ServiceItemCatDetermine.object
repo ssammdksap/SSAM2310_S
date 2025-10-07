@@ -1,0 +1,89 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ServiceItemCatDetermineSet"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Confirmation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ResrcePlanning"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TransactionType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemCatGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemCatUsage"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Mainitemcat"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ALT_NUM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Language"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDescriptionS"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDescriptionI"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ServiceType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValuationType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SubjectProfile"
+		}
+	],
+	"_Name": "ServiceItemCatDetermine"
+}

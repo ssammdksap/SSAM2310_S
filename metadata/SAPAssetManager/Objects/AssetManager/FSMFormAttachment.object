@@ -1,0 +1,84 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"FSMFormAttachments"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Id"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FileName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Type"
+		},
+		{
+			"_Type": "Edm.Boolean",
+			"Key": false,
+			"_Name": "Inactive"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MimeType"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "LastChangedTimestamp"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CreatedTimestamp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FileContent"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Category"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Title"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		}
+	],
+	"_Name": "FSMFormAttachment"
+}

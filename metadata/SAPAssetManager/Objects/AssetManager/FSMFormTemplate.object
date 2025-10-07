@@ -1,0 +1,141 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"FSMFormTemplates"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Owners"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Content"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SyncObjectKPIs"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefaultLanguage"
+		},
+		{
+			"_Type": "Edm.Boolean",
+			"Key": false,
+			"_Name": "Inactive"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Tag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LastChanged"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CreatePerson"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ExternalId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Groups"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChecklistCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Branches"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HazardType"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "Version"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CreatedTimeStamp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UdfMetaGroups"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Name"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Location"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UdfValues"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LastChangedBy"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SyncStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Id"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrgLevel"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(FSMFormInstance)",
+			"Key": false,
+			"_Name": "FSMFormInstance_Nav"
+		}
+	],
+	"_Name": "FSMFormTemplate"
+}

@@ -1,0 +1,126 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"PhysicalInventoryDocHeaders"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UpdateCountFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "GroupingCriteria"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PhysInvDoc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "FiscalYear"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorLocation"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "PlanCountdate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CountDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UserName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PostingBlock"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CountStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AdjustStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Physinventref"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "GroupingType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SpecialStock"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DocumentDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "PostingDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PhysInvNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PhysInvType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CountOnCreate"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyInventoryObject",
+			"Key": false,
+			"_Name": "MyInventoryObject_Nav"
+		},
+		{
+			"_Type": "Collection(PhysicalInventoryDocItem)",
+			"Key": false,
+			"_Name": "PhysicalInventoryDocItem_Nav"
+		}
+	],
+	"_Name": "PhysicalInventoryDocHeader"
+}

@@ -1,0 +1,39 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"MovementTypeTexts"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Client"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Language"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TransactionCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MovementType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SpecialStock"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Text"
+		}
+	],
+	"_Name": "MovementTypeText"
+}

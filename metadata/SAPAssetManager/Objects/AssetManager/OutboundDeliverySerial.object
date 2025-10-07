@@ -1,0 +1,36 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"OutboundDeliverySerials"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "IsDownloaded"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SerialNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DeliveryNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Item"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "OutboundDeliveryItem",
+			"Key": false,
+			"_Name": "OutboundDeliveryItem_Nav"
+		}
+	],
+	"_Name": "OutboundDeliverySerial"
+}

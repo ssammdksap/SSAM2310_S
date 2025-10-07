@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DeliveryPriorities"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DeliveryPriority"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "InboundDelivery",
+			"Key": false,
+			"_Name": "InboundDelivery_Nav"
+		},
+		{
+			"_Type": "OutboundDelivery",
+			"Key": false,
+			"_Name": "OutboundDelivery_Nav"
+		}
+	],
+	"_Name": "DeliveryPriority"
+}

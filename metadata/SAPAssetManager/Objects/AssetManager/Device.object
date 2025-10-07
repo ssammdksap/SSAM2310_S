@@ -1,0 +1,131 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"Devices"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Action"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActivityReason"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ConnectionObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DeviceLocation"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ActivityDate"
+		},
+		{
+			"_Type": "Edm.Boolean",
+			"Key": false,
+			"_Name": "DeviceBlocked"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "EquipmentNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Customer"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Installation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RegisterGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DeviceCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Device"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "ConnectionObject",
+			"Key": false,
+			"_Name": "ConnectionObject_Nav"
+		},
+		{
+			"_Type": "DeviceCategory",
+			"Key": false,
+			"_Name": "DeviceCategory_Nav"
+		},
+		{
+			"_Type": "DeviceLocation",
+			"Key": false,
+			"_Name": "DeviceLocation_Nav"
+		},
+		{
+			"_Type": "Collection(DeviceMeterReading)",
+			"Key": false,
+			"_Name": "DeviceMeterReading_Nav"
+		},
+		{
+			"_Type": "Collection(DisconnectionObject)",
+			"Key": false,
+			"_Name": "DisconnectObject_Nav"
+		},
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "Equipment_Nav"
+		},
+		{
+			"_Type": "Collection(DeviceGoodsMovement)",
+			"Key": false,
+			"_Name": "GoodsMovement_Nav"
+		},
+		{
+			"_Type": "Collection(MeterReading)",
+			"Key": false,
+			"_Name": "MeterReadings_Nav"
+		},
+		{
+			"_Type": "Collection(OrderISULink)",
+			"Key": false,
+			"_Name": "OrderISULink_Nav"
+		},
+		{
+			"_Type": "Collection(PeriodicMeterReading)",
+			"Key": false,
+			"_Name": "PeriodicMeterReading_Nav"
+		},
+		{
+			"_Type": "RegisterGroup",
+			"Key": false,
+			"_Name": "RegisterGroup_Nav"
+		},
+		{
+			"_Type": "StreetRoute",
+			"Key": false,
+			"_Name": "StreetRoute_Nav"
+		}
+	],
+	"_Name": "Device"
+}

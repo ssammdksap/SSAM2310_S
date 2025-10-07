@@ -1,0 +1,69 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"SurveyDeterminations"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "QuestionnaireID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TransactionType"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ValidTo"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ValidFrom"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Mandatory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Active"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CriteriaSet"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Language"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Determ"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TransCategory"
+		}
+	],
+	"_Name": "SurveyDetermination"
+}

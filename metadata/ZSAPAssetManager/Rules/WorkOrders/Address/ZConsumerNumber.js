@@ -1,0 +1,16 @@
+/**
+* Defect 8000000895 - Order Details Page comes blank when FL is blank
+* Returns the Consumer Number from Address
+*/
+export default function ZConsumerNumber(context) {
+    let woHeaderAddress = context.binding.AddressNum;
+    if(!woHeaderAddress){
+        if (context.binding.FunctionalLocation)
+            return context.binding.FunctionalLocation.Address.ZConsumerNumber;
+        else
+            return "-";
+    }
+    else {
+        return context.binding.Address.ZConsumerNumber;
+    }
+}

@@ -1,0 +1,54 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMSwitchingDatas"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OpGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TaggingCond"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TaggingType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UntagCond"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UntaggingType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PhysBlocking"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TagRequired"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Useas"
+		}
+	],
+	"_Name": "WCMSwitchingData"
+}
