@@ -1,0 +1,39 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"PrioritizationMaps"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Priority"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "CategoryId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ConsequenceId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "GroupId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "LikelihoodId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PrioritizationProfileId"
+		}
+	],
+	"_Name": "PrioritizationMap"
+}

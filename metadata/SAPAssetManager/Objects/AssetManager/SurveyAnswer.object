@@ -1,0 +1,61 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"SurveyAnswers"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SurveyID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SurveyVersion"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Language"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Mandatory"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "MaxLength"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NodeNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NodeNum1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReadOnly"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "Size"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "SurveyDefinition",
+			"Key": false,
+			"_Name": "SurveyAnswer_SurveyDefinition"
+		}
+	],
+	"_Name": "SurveyAnswer"
+}

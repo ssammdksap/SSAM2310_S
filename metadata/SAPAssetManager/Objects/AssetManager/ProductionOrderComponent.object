@@ -1,0 +1,136 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ProductionOrderComponents"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SupplyPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SupplyStorageLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Batch"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SpecialStock"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "RequirementDate"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "QuantityUnE"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UnitOfEntry"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MovementType"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "WithdrawalQuantity"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "RequirementQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RequirementUOM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Reservation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RecordType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Completed"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaterialNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RoutingNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Counter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BackFlushIndicator"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorageBin"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MaterialDocItem)",
+			"Key": false,
+			"_Name": "MaterialDocItem_Nav"
+		},
+		{
+			"_Type": "MaterialPlant",
+			"Key": false,
+			"_Name": "MaterialPlant_Nav"
+		},
+		{
+			"_Type": "ProductionOrderHeader",
+			"Key": false,
+			"_Name": "ProductionOrderHeader_Nav"
+		}
+	],
+	"_Name": "ProductionOrderComponent"
+}

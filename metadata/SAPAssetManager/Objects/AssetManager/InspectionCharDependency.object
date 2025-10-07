@@ -1,0 +1,56 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"InspectionCharDependencies"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InspectionChar"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InspectionLot"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InspectionNode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SampleNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DependentInspChar"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AfterAcceptance"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AfterRejection"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DependentInspNode"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "InspectionCharacteristic",
+			"Key": false,
+			"_Name": "InspCharacteristics_Nav"
+		}
+	],
+	"_Name": "InspectionCharDependency"
+}

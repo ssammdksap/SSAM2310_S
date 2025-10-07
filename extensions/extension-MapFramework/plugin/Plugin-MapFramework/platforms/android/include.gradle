@@ -1,0 +1,87 @@
+apply plugin: 'jacoco'
+apply plugin: 'kotlin-parcelize'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+repositories {
+    maven { url 'https://esri.jfrog.io/artifactory/arcgis' }
+}
+
+jacoco {
+    toolVersion = '0.8.7'
+}
+
+android {
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+    kotlinOptions {
+        jvmTarget = 1.8
+    }
+
+    buildTypes {
+        debug {
+            testCoverageEnabled false
+        }
+    }
+}
+
+dependencies {
+    // Please refer to https://www.telerik.com/account/support-tickets/view-ticket?threadid=1160649
+    // Currently, the only officially supported way of adding dependencies in gradle is via compile
+    // Esri maps
+    implementation "com.esri:arcgis-maps-kotlin:200.3.0"
+
+    implementation "androidx.core:core-ktx:1.10.1"
+    implementation 'androidx.activity:activity-compose:1.8.0'
+    implementation "com.google.android.material:material:1.8.0"
+
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1"
+    implementation "androidx.lifecycle:lifecycle-common:2.6.1"
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1'
+
+    implementation "androidx.appcompat:appcompat:1.6.1"
+    implementation "androidx.appcompat:appcompat-resources:1.6.1"
+    implementation "androidx.fragment:fragment-ktx:1.6.1"
+
+    // Jetpack Compose
+    implementation platform('androidx.compose:compose-bom:2024.02.00')
+    implementation 'androidx.compose.material3:material3'
+    implementation 'androidx.compose.ui:ui'
+    implementation 'androidx.compose.ui:ui-tooling-preview'
+    implementation 'androidx.compose.material:material-icons-core'
+    implementation 'androidx.compose.material:material-icons-extended'
+
+    implementation "com.sap.cloud.android:fiori:24.4.12"
+
+    // Fiori Compose
+    implementation "com.sap.cloud.android:fiori-compose-ui:24.4.12"
+    implementation "com.sap.cloud.android:fiori-composable-theme:24.4.12"
+
+    implementation platform("com.squareup.okhttp3:okhttp-bom:4.12.0")
+    implementation "com.squareup.okhttp3:okhttp"
+    implementation "com.squareup.okhttp3:okhttp-urlconnection"
+
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.20"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:1.8.20"
+    implementation "androidx.security:security-crypto:1.0.0"
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1"
+
+    // Koin DI
+    implementation("io.insert-koin:koin-android:3.5.0")
+    testImplementation "io.insert-koin:koin-test:3.5.0"
+
+    testImplementation "junit:junit:4.13.2"
+    testImplementation "org.mockito:mockito-core:5.8.0"
+
+    androidTestImplementation "androidx.test:runner:1.5.2"
+    androidTestImplementation "org.mockito:mockito-android:5.8.0"
+    androidTestImplementation "androidx.arch.core:core-testing:2.2.0"
+}
+

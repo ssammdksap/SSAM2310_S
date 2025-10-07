@@ -1,0 +1,356 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"S4ServiceOrders"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "RequestedStart"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "RequestedEnd"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SoldToParty"
+		},
+		{
+			"_Type": "Edm.Guid",
+			"Key": false,
+			"_Name": "Category1"
+		},
+		{
+			"_Type": "Edm.Guid",
+			"Key": false,
+			"_Name": "Category2"
+		},
+		{
+			"_Type": "Edm.Guid",
+			"Key": false,
+			"_Name": "Category3"
+		},
+		{
+			"_Type": "Edm.Guid",
+			"Key": false,
+			"_Name": "Category4"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ServiceOrg"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EmployeeResp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ServiceTeam"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SubjectProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CatalogType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CodeGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Code"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ServiceRespOrg"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Urgency"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Impact"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WarrantyID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WarrantyDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ServiceEmployee"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SchemaID"
+		},
+		{
+			"_Type": "Edm.Guid",
+			"Key": false,
+			"_Name": "SchemaGUID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HeaderGUID32"
+		},
+		{
+			"_Type": "Edm.Guid",
+			"Key": false,
+			"_Name": "HeaderGUID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesRespOrg"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActivityCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ProcessType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Priority"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesOrg"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesOffice"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ContractAccount"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CategoryID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ContactPerson"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BillToParty"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DistributionChannel"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Division"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DueBy"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Currency"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "S4BusinessPartner",
+			"Key": false,
+			"_Name": "BillToParty_Nav"
+		},
+		{
+			"_Type": "CategorizationSchema",
+			"Key": false,
+			"_Name": "Category1_Nav"
+		},
+		{
+			"_Type": "CategorizationSchema",
+			"Key": false,
+			"_Name": "Category2_Nav"
+		},
+		{
+			"_Type": "CategorizationSchema",
+			"Key": false,
+			"_Name": "Category3_Nav"
+		},
+		{
+			"_Type": "CategorizationSchema",
+			"Key": false,
+			"_Name": "Category4_Nav"
+		},
+		{
+			"_Type": "S4BusinessPartner",
+			"Key": false,
+			"_Name": "ContactPerson_Nav"
+		},
+		{
+			"_Type": "S4BusinessPartner",
+			"Key": false,
+			"_Name": "Customer_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceOrderDocument)",
+			"Key": false,
+			"_Name": "Document"
+		},
+		{
+			"_Type": "S4BusinessPartner",
+			"Key": false,
+			"_Name": "EmpResp_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceOrderLongText)",
+			"Key": false,
+			"_Name": "LongText_Nav"
+		},
+		{
+			"_Type": "Collection(PMMobileStatusHistory)",
+			"Key": false,
+			"_Name": "MobileStatusHistory_Nav"
+		},
+		{
+			"_Type": "PMMobileStatus",
+			"Key": false,
+			"_Name": "MobileStatus_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceOrderPartner)",
+			"Key": false,
+			"_Name": "Partners_Nav"
+		},
+		{
+			"_Type": "ServicePriority",
+			"Key": false,
+			"_Name": "Priority_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceOrderRefObj)",
+			"Key": false,
+			"_Name": "RefObjects_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceConfirmationTranHistory)",
+			"Key": false,
+			"_Name": "S4ServiceConfirmationTranHistory_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceErrorMessage)",
+			"Key": false,
+			"_Name": "S4ServiceErrorMessage_Nav"
+		},
+		{
+			"_Type": "SalesOffice",
+			"Key": false,
+			"_Name": "SalesOffice_Nav"
+		},
+		{
+			"_Type": "SalesOrg",
+			"Key": false,
+			"_Name": "SalesOrg_Nav"
+		},
+		{
+			"_Type": "SalesRespOrg",
+			"Key": false,
+			"_Name": "SalesRespOrg_Nav"
+		},
+		{
+			"_Type": "ServiceImpact",
+			"Key": false,
+			"_Name": "ServiceImpact_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceItem)",
+			"Key": false,
+			"_Name": "ServiceItems_Nav"
+		},
+		{
+			"_Type": "ServiceOrg",
+			"Key": false,
+			"_Name": "ServiceOrg_Nav"
+		},
+		{
+			"_Type": "ServiceRespOrg",
+			"Key": false,
+			"_Name": "ServiceRespOrg_Nav"
+		},
+		{
+			"_Type": "ServiceUrgency",
+			"Key": false,
+			"_Name": "ServiceUrgency_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceOrderTranHistory)",
+			"Key": false,
+			"_Name": "TransHistories_Nav"
+		}
+	],
+	"_Name": "S4ServiceOrder"
+}

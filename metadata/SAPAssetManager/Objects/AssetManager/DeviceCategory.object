@@ -1,0 +1,46 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DeviceCategories"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DeviceCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RegisterGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Unit"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(Device)",
+			"Key": false,
+			"_Name": "Devices_Nav"
+		},
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Material_Nav"
+		},
+		{
+			"_Type": "Collection(OrderISULink)",
+			"Key": false,
+			"_Name": "OrderISULink_Nav"
+		}
+	],
+	"_Name": "DeviceCategory"
+}

@@ -1,0 +1,41 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMApplicationAttachments"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RelationshipID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Objectkey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WCMApplication"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Document",
+			"Key": false,
+			"_Name": "Document"
+		},
+		{
+			"_Type": "WCMApplication",
+			"Key": false,
+			"_Name": "WCMApplications"
+		}
+	],
+	"_Name": "WCMApplicationAttachment"
+}

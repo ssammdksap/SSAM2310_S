@@ -1,0 +1,84 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ServiceNoteTypes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObligatoryText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AccessSequence"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Redetermination"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TransferType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Changes"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TransCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Sequence"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextDetProc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TextID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemCatUsage"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemCatGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Textobject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TransactionType"
+		}
+	],
+	"_Name": "ServiceNoteType"
+}

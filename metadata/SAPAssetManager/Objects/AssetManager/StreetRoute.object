@@ -1,0 +1,81 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"StreetRoutes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ConnectionObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MeterReader"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonnelNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MeterReadingUnit"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": true,
+			"_Name": "RouteIndex"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "DeviceSet"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "EquipmentNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BusinessPartner"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "NextEquipmentNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PreviousEquipmentNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "ConnectionObject",
+			"Key": false,
+			"_Name": "ConnectionObject_Nav"
+		},
+		{
+			"_Type": "Device",
+			"Key": false,
+			"_Name": "Device_Nav"
+		},
+		{
+			"_Type": "MeterReadingUnit",
+			"Key": false,
+			"_Name": "MeterReadingUnit_Nav"
+		},
+		{
+			"_Type": "StreetRouteConnectionObject",
+			"Key": false,
+			"_Name": "StreetRouteConnectionObject_Nav"
+		}
+	],
+	"_Name": "StreetRoute"
+}

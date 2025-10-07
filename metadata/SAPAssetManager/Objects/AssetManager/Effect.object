@@ -1,0 +1,26 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"Effects"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EffectDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Effect"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MyNotificationHeader)",
+			"Key": false,
+			"_Name": "NotificationHeaders_Nav"
+		}
+	],
+	"_Name": "Effect"
+}

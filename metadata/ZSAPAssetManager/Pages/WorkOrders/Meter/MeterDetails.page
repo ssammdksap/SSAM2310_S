@@ -1,0 +1,267 @@
+{
+	"Controls": [
+		{
+			"StickyColumn": false,
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable",
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Subhead": "/SAPAssetManager/Rules/Meter/Details/DeviceLocationDisplay.js",
+						"Footnote": "/SAPAssetManager/Rules/WorkOrders/Meter/MeterAddress.js",
+						"StatusText": "/SAPAssetManager/Rules/Meter/Details/MeterStatusText.js",
+						"SubstatusText": "/SAPAssetManager/Rules/Meter/Details/ConnectedStatus.js",
+						"Tags": "/SAPAssetManager/Rules/Meter/Details/DeviceTagsDisplay.js",
+						"HeadlineText": "/SAPAssetManager/Rules/Meter/Details/DeviceHeadlineDisplay.js",
+						"Target": {
+							"EntitySet": "/SAPAssetManager/Rules/Meter/ActivityFix.js",
+							"Service": "/SAPAssetManager/Services/AssetManager.service",
+							"QueryOptions": "/SAPAssetManager/Rules/Meter/ActivityQueryOptsFix.js"
+						}
+					},
+					"_Type": "Section.Type.ObjectHeader",
+					"DataSubscriptions": [
+						"OrderISULinks,MobileStatuses,Devices,MyEquipments,MyEquipObjectStatuses,SystemStatuses"
+					],
+					"_Name": "ObjectHeaderSectionTable"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"Value": "/SAPAssetManager/Rules/Meter/Details/ManufacturerDisplay.js",
+							"_Name": "KeyValue0",
+							"KeyName": "$(L,manufacturer)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/Meter/Details/RegisterGroupDisplay.js",
+							"_Name": "KeyValue1",
+							"KeyName": "$(L,register_group)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/Meter/Details/DeviceDisplay.js",
+							"_Name": "KeyValue2",
+							"KeyName": "$(L,device)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/Meter/Details/InstallationDisplay.js",
+							"_Name": "KeyValue3",
+							"KeyName": "$(L,installation_id)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/Meter/Details/MovementTypeDisplay.js",
+							"_Name": "KeyValue4",
+							"KeyName": "$(L,movement_type)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/Meter/Details/ReceivingPlantDisplay.js",
+							"_Name": "KeyValue5",
+							"KeyName": "$(L,receiving_plant)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/Meter/Details/StorageLocationDisplay.js",
+							"_Name": "KeyValue6",
+							"KeyName": "$(L,storage_location)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/Meter/Details/CostCenterDisplay.js",
+							"_Name": "KeyValue7",
+							"KeyName": "$(L,cost_center)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/Meter/Details/ReasonDisplay.js",
+							"_Name": "KeyValue8",
+							"KeyName": "$(L,reason)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/Meter/Details/DateDisplay.js",
+							"_Name": "KeyValue9",
+							"KeyName": "$(L,date)"
+						},
+						{
+							"Value": "/SAPAssetManager/Rules/Meter/Details/PointOfDelivery.js",
+							"_Name": "KeyValue10",
+							"KeyName": "$(L,Point_Of_Delivery)"
+						}
+					],
+					"MaxItemCount": 1,
+					"_Type": "Section.Type.KeyValue",
+					"Target": {
+						"EntitySet": "/SAPAssetManager/Rules/Meter/ActivityFix.js",
+						"Service": "/SAPAssetManager/Services/AssetManager.service",
+						"QueryOptions": "/SAPAssetManager/Rules/Meter/ActivityQueryOptsFix.js"
+					},
+					"_Name": "MeterDetails",
+					"Header": {
+						"_Name": "SectionHeader0",
+						"UseTopPadding": true,
+						"Caption": "$(L,meter_details)"
+					},
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 2
+					}
+				},
+				{
+					"Row": {
+						"Items": [
+							{
+								"Image": "/SAPAssetManager/Rules/Meter/RegReadingIsLocal.js",
+								"NumberOfLines": 1
+							},
+							{
+								"NumberOfLines": 1,
+								"Style": "GridTableRowText",
+								"Text": "{RegisterNum}"
+							},
+							{
+								"NumberOfLines": 1,
+								"Style": "GridTableRowText",
+								"Text": "/SAPAssetManager/Rules/Meter/Format/ReadingTime.js"
+							},
+							{
+								"NumberOfLines": 1,
+								"Style": "GridTableRowText",
+								"Text": "/SAPAssetManager/Rules/Meter/Format/ReadingDate.js"
+							},
+							{
+								"NumberOfLines": 1,
+								"Style": "GridTableRowText",
+								"Text": "/SAPAssetManager/Rules/Meter/Format/ReadingValue.js"
+							}
+						],
+						"Layout": {
+							"ColumnWidth": [
+								100,
+								200,
+								200,
+								200,
+								-1
+							]
+						},
+						"OnPress": "/SAPAssetManager/Actions/WorkOrders/Meter/Register/RegisterDetailsNav.action"
+					},
+					"_Type": "Section.Type.DataTable",
+					"DataSubscriptions": [
+						"MeterReadings"
+					],
+					"Target": {
+						"EntitySet": "/SAPAssetManager/Rules/Meter/Format/MeterRegisterEntitySet.js",
+						"Service": "/SAPAssetManager/Services/AssetManager.service",
+						"QueryOptions": "$orderby=RegisterNum"
+					},
+					"_Name": "DataTableSection",
+					"Header": {
+						"DataTable": {
+							"Items": [
+								{
+									"NumberOfLines": 1,
+									"Style": "GridTableHeaderText",
+									"TextAlignment": "center"
+								},
+								{
+									"NumberOfLines": 1,
+									"Style": "GridTableHeaderText",
+									"Text": "$(L,register)",
+									"TextAlignment": "center"
+								},
+								{
+									"NumberOfLines": 1,
+									"Style": "GridTableHeaderText",
+									"Text": "$(L,time)",
+									"TextAlignment": "center"
+								},
+								{
+									"NumberOfLines": 1,
+									"Style": "GridTableHeaderText",
+									"Text": "$(L,date)",
+									"TextAlignment": "center"
+								},
+								{
+									"NumberOfLines": 1,
+									"Style": "GridTableHeaderText",
+									"Text": "$(L,reading)",
+									"TextAlignment": "center"
+								}
+							]
+						},
+						"_Name": "SectionDataTableHeader0",
+						"UseTopPadding": true
+					},
+					"Visible": "/ZSAPAssetManager/Rules/WorkOrders/Meter/ZPreviousMeterReadingVisible.js",
+					"EmptySection": {
+						"Caption": "$(L,no_readings)",
+						"FooterVisible": false
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"DataSubscriptions": "/SAPAssetManager/Rules/Common/DataSubscriptions.js",
+	"_Name": "MeterDetailsPage",
+	"Caption": "/SAPAssetManager/Rules/Meter/Details/DetailsCaptionFix.js",
+	"PrefersLargeCaption": true,
+	"OnLoaded": "/SAPAssetManager/Rules/WorkOrders/Meter/MeterDetailsOnLoad.js",
+	"OnReturning": "/SAPAssetManager/Rules/WorkOrders/Meter/MeterDetailsOnLoad.js",
+	"ActionBar": {
+		"Items": [
+			{
+				"Text": "$(L,take_readings)",
+				"_Name": "ActionBarItem0",
+				"Caption": "",
+				"Position": "right",
+				"IsIconCircular": false,
+				"Visible": false,
+				"OnPress": "/SAPAssetManager/Rules/Meter/MeterReadingsUpdateNav.js"
+			},
+			{
+				"Text": "$(L,replace_meter)",
+				"_Name": "ActionBarItem1",
+				"Caption": "",
+				"Position": "right",
+				"IsIconCircular": false,
+				"Visible": false,
+				"OnPress": "/SAPAssetManager/Rules/Meter/CreateUpdate/MeterReplaceUpdateNav.js"
+			},
+			{
+				"Text": "$(L,remove_meter)",
+				"_Name": "ActionBarItem2",
+				"Caption": "",
+				"Position": "right",
+				"IsIconCircular": false,
+				"Visible": false,
+				"OnPress": "/SAPAssetManager/Rules/Meter/CreateUpdate/MeterRemoveUpdateNav.js"
+			},
+			{
+				"Text": "$(L,disconnect)",
+				"_Name": "ActionBarItem3",
+				"Caption": "",
+				"Position": "right",
+				"IsIconCircular": false,
+				"Visible": false,
+				"OnPress": "/SAPAssetManager/Rules/Meter/CreateUpdate/MeterDisconnectNav.js"
+			},
+			{
+				"Text": "$(L,reconnect)",
+				"_Name": "ActionBarItem4",
+				"Caption": "",
+				"Position": "right",
+				"IsIconCircular": false,
+				"Visible": false,
+				"OnPress": "/SAPAssetManager/Rules/Meter/CreateUpdate/MeterReconnectNav.js"
+			},
+			{
+				"Text": "$(L,edit)",
+				"_Name": "ActionBarItem5",
+				"Caption": "",
+				"Position": "right",
+				"IsIconCircular": false,
+				"Visible": false,
+				"OnPress": "/SAPAssetManager/Rules/Meter/MeterUpdateSwitch.js"
+			}
+		],
+		"_Name": "ActionBar1"
+	}
+}

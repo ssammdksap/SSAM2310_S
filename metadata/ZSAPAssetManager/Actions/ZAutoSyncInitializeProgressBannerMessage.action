@@ -1,0 +1,5 @@
+{
+    "Message": "$(L,auto_sync_in_progress)",
+    "OnSuccess": "/SAPAssetManager/Rules/ApplicationEvents/SyncData.js",
+    "_Type": "Action.Type.ProgressBanner"
+}

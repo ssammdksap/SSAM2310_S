@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMApplicationDocuments"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WCMApplication"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WCMDocument"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "WCMApplication",
+			"Key": false,
+			"_Name": "WCMApplications"
+		},
+		{
+			"_Type": "WCMDocumentHeader",
+			"Key": false,
+			"_Name": "WCMDocumentHeaders"
+		}
+	],
+	"_Name": "WCMApplicationDocument"
+}

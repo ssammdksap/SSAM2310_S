@@ -1,0 +1,46 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ServiceItemCategorySchemas"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ParentObjectType"
+		},
+		{
+			"_Type": "Edm.Guid",
+			"Key": false,
+			"_Name": "SubjectProfileAspectGUID"
+		},
+		{
+			"_Type": "Edm.Guid",
+			"Key": false,
+			"_Name": "CatalogTypeCAspectGUID"
+		},
+		{
+			"_Type": "Edm.Guid",
+			"Key": false,
+			"_Name": "CatalogTypeDAspectGUID"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(S4ServiceConfirmationItem)",
+			"Key": false,
+			"_Name": "S4ServiceConfirmationItem_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceItem)",
+			"Key": false,
+			"_Name": "S4ServiceItem_Nav"
+		}
+	],
+	"_Name": "ServiceItemCategorySchema"
+}

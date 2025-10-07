@@ -1,0 +1,116 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DeviceMeterReadings"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MeterReaderNote"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MeterReaderNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MeterReadingReason"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MeterReadingType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Register"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MeterReadingActive"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NumberSapSegment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NoAmiLimit"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "MeterReadingRecorded"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ActualMeterReadingDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DateMaxRead"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "MeterReadingDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "SchedMeterReadingDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipmentNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActualMeterReadingTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MeterReadingTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TimeMaxReading"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MeterReadingDocID"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Device",
+			"Key": false,
+			"_Name": "Device_Nav"
+		},
+		{
+			"_Type": "MeterReading",
+			"Key": false,
+			"_Name": "MeterReading_Nav"
+		}
+	],
+	"_Name": "DeviceMeterReading"
+}

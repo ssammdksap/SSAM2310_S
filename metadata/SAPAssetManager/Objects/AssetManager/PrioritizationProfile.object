@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"PrioritizationProfiles"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Label"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PrioritizationProfileId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(ConsequenceGroup)",
+			"Key": false,
+			"_Name": "ConsequenceGroup_Nav"
+		},
+		{
+			"_Type": "Collection(PrioritizationProfileLink)",
+			"Key": false,
+			"_Name": "PrioritizationProfileLink_Nav"
+		}
+	],
+	"_Name": "PrioritizationProfile"
+}

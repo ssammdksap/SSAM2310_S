@@ -1,0 +1,61 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"S4PartnerFunctions"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PartnerFunction"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FunctionCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Usage"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RelatshpCat"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RelationshpType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HidePartnerFunc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDescription"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(S4ServiceConfirmationPartner)",
+			"Key": false,
+			"_Name": "S4ConfirmationPartner_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceOrderPartner)",
+			"Key": false,
+			"_Name": "S4OrderPartner_Nav"
+		}
+	],
+	"_Name": "S4PartnerFunction"
+}

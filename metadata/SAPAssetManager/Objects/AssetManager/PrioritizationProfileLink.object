@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"PrioritizationProfileLinks"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PrioritizationProfileID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "NotificationType"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "PrioritizationProfile",
+			"Key": false,
+			"_Name": "PrioritizationProfile_Nav"
+		}
+	],
+	"_Name": "PrioritizationProfileLink"
+}

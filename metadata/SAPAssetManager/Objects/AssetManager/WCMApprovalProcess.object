@@ -1,0 +1,86 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMApprovalProcesses"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Counter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Permit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Longtext"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CreatedOn"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CreatedBy"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ChangedOn"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChangedBy"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WCMApplication"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WCMDocument"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PermitCategory"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "WCMApplication",
+			"Key": false,
+			"_Name": "WCMApplications"
+		},
+		{
+			"_Type": "WCMApprovalProcessLongtext",
+			"Key": false,
+			"_Name": "WCMApprovalProcessLongtexts"
+		},
+		{
+			"_Type": "Collection(WCMApprovalProcessSegment)",
+			"Key": false,
+			"_Name": "WCMApprovalProcessSegments"
+		},
+		{
+			"_Type": "WCMDocumentHeader",
+			"Key": false,
+			"_Name": "WCMDocumentHeaders"
+		}
+	],
+	"_Name": "WCMApprovalProcess"
+}

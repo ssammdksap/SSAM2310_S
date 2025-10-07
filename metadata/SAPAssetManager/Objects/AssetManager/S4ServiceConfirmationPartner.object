@@ -1,0 +1,96 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"S4ServiceConfirmationPartners"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PrevPartnerFunction"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PrevPartnerNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MainPartner"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DisplayType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PartnerNoType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AddressNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BusinessPartnerID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HeaderID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PartnerFunction"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PartnerNo"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "S4BusinessPartner",
+			"Key": false,
+			"_Name": "BusinessPartner_Nav"
+		},
+		{
+			"_Type": "S4PartnerFunction",
+			"Key": false,
+			"_Name": "S4PartnerFunc_Nav"
+		},
+		{
+			"_Type": "S4ServiceConfirmationItem",
+			"Key": false,
+			"_Name": "S4ServiceConfirmationItem_Nav"
+		},
+		{
+			"_Type": "S4ServiceConfirmation",
+			"Key": false,
+			"_Name": "S4ServiceConfirmation_Nav"
+		}
+	],
+	"_Name": "S4ServiceConfirmationPartner"
+}

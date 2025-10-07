@@ -1,0 +1,51 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMDocumentItemAttachments"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RelationshipID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WCMDocument"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WCMDocumentItem"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WCMDocumentItemObjNr"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectKey"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Document",
+			"Key": false,
+			"_Name": "Document"
+		},
+		{
+			"_Type": "WCMDocumentItem",
+			"Key": false,
+			"_Name": "WCMDocumentItems"
+		}
+	],
+	"_Name": "WCMDocumentItemAttachment"
+}

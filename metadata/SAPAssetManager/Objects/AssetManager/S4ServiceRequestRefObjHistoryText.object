@@ -1,0 +1,51 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"S4ServiceRequestRefObjHistoryTexts"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextObjType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextString"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HeaderID"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "S4ServiceRequestRefObjHistory",
+			"Key": false,
+			"_Name": "S4RequestRefObjHistory_Nav"
+		}
+	],
+	"_Name": "S4ServiceRequestRefObjHistoryText"
+}

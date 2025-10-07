@@ -1,0 +1,69 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ServiceProcessTypes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.Guid",
+			"Key": false,
+			"_Name": "SubjectProfileAspectGUID"
+		},
+		{
+			"_Type": "Edm.Guid",
+			"Key": false,
+			"_Name": "CatalogTypeCAspectGUID"
+		},
+		{
+			"_Type": "Edm.Guid",
+			"Key": false,
+			"_Name": "CatalogTypeDAspectGUID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TransactionType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SubjectProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TransactionType1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Copyitemno"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Completerefer"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TransCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusProfile"
+		}
+	],
+	"_Name": "ServiceProcessType"
+}

@@ -1,0 +1,121 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"MyWorkOrderOperationCapacityRequirements"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "CapacityRequirement"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "InternalCounter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "CapacityRecordCounter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RemainingSplit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CapacityId"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "EarliestStrtDate"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "EarliestStrtTime"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "EarliestEndDate"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "EarliestEndTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationRoutingNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RoutingNumberCounter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonnelNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SplitNumber"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "Work"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UnitForWork"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "NormalDuration"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NormalDurationUnit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OperationNo"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Employee",
+			"Key": false,
+			"_Name": "Employee_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderOperation",
+			"Key": false,
+			"_Name": "MyWorkOrderOperation_Nav"
+		}
+	],
+	"_Name": "MyWorkOrderOperationCapacityRequirement"
+}

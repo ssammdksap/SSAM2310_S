@@ -1,0 +1,46 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ConsequenceLikelihoodMaps"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "CategoryId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "GroupId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "LikelihoodId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "LikelihoodPosition"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PrioritizationProfileId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "ConsequenceCategory",
+			"Key": false,
+			"_Name": "ConsequenceCategory_Nav"
+		},
+		{
+			"_Type": "ConsequenceLikelihood",
+			"Key": false,
+			"_Name": "ConsequenceLikelihood_Nav"
+		}
+	],
+	"_Name": "ConsequenceLikelihoodMap"
+}

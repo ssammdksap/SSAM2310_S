@@ -1,0 +1,11 @@
+{
+	"ServiceUrl": "/destinations/mobileservices",
+	"DestinationName": "DEST_DIGITAL_SIGNATURE_PPROP",
+	"LanguageURLParam": "sap-language",
+	"OfflineEnabled": false,
+	"OnlineOptions": {
+		"ServiceOptions": {
+			"dataFormat": 1
+		}
+	}
+}

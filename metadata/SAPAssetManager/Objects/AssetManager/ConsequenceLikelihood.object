@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ConsequenceLikelihoods"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Position"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "LikelihoodId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(ConsequenceLikelihoodMap)",
+			"Key": false,
+			"_Name": "ConsequenceLikelihoodMap_Nav"
+		}
+	],
+	"_Name": "ConsequenceLikelihood"
+}

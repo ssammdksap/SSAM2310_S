@@ -1,0 +1,46 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"MeterReadingUnits"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonnelNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MeterReadingUnit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BusinessPartner"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(PeriodicMeterReading)",
+			"Key": false,
+			"_Name": "PeriodicMeterReading_Nav"
+		},
+		{
+			"_Type": "Collection(StreetRouteConnectionObject)",
+			"Key": false,
+			"_Name": "StreetRouteConnObj_Nav"
+		},
+		{
+			"_Type": "Collection(StreetRoute)",
+			"Key": false,
+			"_Name": "StreetRoute_Nav"
+		}
+	],
+	"_Name": "MeterReadingUnit"
+}

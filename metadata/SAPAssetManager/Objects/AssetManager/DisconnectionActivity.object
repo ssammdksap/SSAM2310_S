@@ -1,0 +1,106 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DisconnectionActivities"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DocNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DisconnectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ActivityNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActivityType"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "ActivityTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActivityStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DisconnectCanceled"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CompleteFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DisconnectFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NewOrderFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BudgetBillingPlanChanged"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ActivityDate"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "DisconnectActivityStatus",
+			"Key": false,
+			"_Name": "DisconnectActivityStatus_Nav"
+		},
+		{
+			"_Type": "DisconnectionActivityType",
+			"Key": false,
+			"_Name": "DisconnectActivityType_Nav"
+		},
+		{
+			"_Type": "DisconnectionDocument",
+			"Key": false,
+			"_Name": "DisconnectDoc_Nav"
+		},
+		{
+			"_Type": "Collection(DisconnectionObject)",
+			"Key": false,
+			"_Name": "DisconnectObject_Nav"
+		},
+		{
+			"_Type": "DisconnectionType",
+			"Key": false,
+			"_Name": "DisconnectType_Nav"
+		},
+		{
+			"_Type": "MyWorkOrderHeader",
+			"Key": false,
+			"_Name": "WOHeader_Nav"
+		}
+	],
+	"_Name": "DisconnectionActivity"
+}

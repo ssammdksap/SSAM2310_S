@@ -1,0 +1,26 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DisconnectionReasons"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DisconnectionReason"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "DisconnectionDocument",
+			"Key": false,
+			"_Name": "DisconnectDocument_Nav"
+		}
+	],
+	"_Name": "DisconnectionReason"
+}

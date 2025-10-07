@@ -1,0 +1,191 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMApplications"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "ValidFromTime"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "ValidToTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActualSystemStatus"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ValidFrom"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ValidTo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Priority"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocIdIntern"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TrafficLight"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkCenterObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkCenterID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WCMApplication"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Usage"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkPermitDescr"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlannerGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WCMApproval"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "Extension"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "MyEquipments"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "MyFunctionalLocations"
+		},
+		{
+			"_Type": "Collection(WCMApplicationAttachment)",
+			"Key": false,
+			"_Name": "WCMApplicationAttachments"
+		},
+		{
+			"_Type": "Collection(WCMApplicationDocument)",
+			"Key": false,
+			"_Name": "WCMApplicationDocuments"
+		},
+		{
+			"_Type": "Collection(WCMApplicationLongtext)",
+			"Key": false,
+			"_Name": "WCMApplicationLongtext_Nav"
+		},
+		{
+			"_Type": "Collection(WCMApplicationOrder)",
+			"Key": false,
+			"_Name": "WCMApplicationOrders"
+		},
+		{
+			"_Type": "Collection(WCMApplicationPartner)",
+			"Key": false,
+			"_Name": "WCMApplicationPartners"
+		},
+		{
+			"_Type": "WCMApplicationUsage",
+			"Key": false,
+			"_Name": "WCMApplicationUsages"
+		},
+		{
+			"_Type": "Collection(WCMApprovalApplication)",
+			"Key": false,
+			"_Name": "WCMApprovalApplications"
+		},
+		{
+			"_Type": "Collection(WCMApprovalProcess)",
+			"Key": false,
+			"_Name": "WCMApprovalProcesses"
+		},
+		{
+			"_Type": "Collection(WCMCatalog)",
+			"Key": false,
+			"_Name": "WCMCatalogs"
+		},
+		{
+			"_Type": "WCMRequirement",
+			"Key": false,
+			"_Name": "WCMRequirements"
+		},
+		{
+			"_Type": "Collection(WCMSystemStatus)",
+			"Key": false,
+			"_Name": "WCMSystemStatuses"
+		},
+		{
+			"_Type": "Collection(WCMUserStatus)",
+			"Key": false,
+			"_Name": "WCMUserStatuses"
+		},
+		{
+			"_Type": "WorkCenter",
+			"Key": false,
+			"_Name": "WorkCenters"
+		}
+	],
+	"_Name": "WCMApplication"
+}

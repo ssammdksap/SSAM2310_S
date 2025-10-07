@@ -1,0 +1,66 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"Registers"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DoNotReadRegister"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NonMeteringRegister"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RegisterType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RegisterCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RegisterInfoFld"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DecimalAfter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DecimalBefore"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RegisterNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UnitOfMeasureMR"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RegisterGroup"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "RegisterGroup",
+			"Key": false,
+			"_Name": "RegisterGroup_Nav"
+		}
+	],
+	"_Name": "Register"
+}

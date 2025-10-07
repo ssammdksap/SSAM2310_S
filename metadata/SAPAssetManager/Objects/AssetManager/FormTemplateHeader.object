@@ -1,0 +1,66 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"FormTemplateHeaders"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TemplateId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DisplayId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LongDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FormCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BusinessObjects"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Version"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PublishDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "IntentCode"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(FormTemplateGroup)",
+			"Key": false,
+			"_Name": "TemplateGroups_Nav"
+		}
+	],
+	"_Name": "FormTemplateHeader"
+}

@@ -1,0 +1,81 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"MaterialProjectStocks"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MaterialNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "StorageLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Batch"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SpecialStock"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WBSElement"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "UnrestrictedQty"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "QualityInspectionQty"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "BlockedQty"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "RestrictedUseQty"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Material"
+		},
+		{
+			"_Type": "MaterialBatch",
+			"Key": false,
+			"_Name": "MaterialBatch"
+		},
+		{
+			"_Type": "MaterialPlant",
+			"Key": false,
+			"_Name": "MaterialPlant"
+		},
+		{
+			"_Type": "MaterialSLoc",
+			"Key": false,
+			"_Name": "MaterialSLoc"
+		}
+	],
+	"_Name": "MaterialProjectStock"
+}

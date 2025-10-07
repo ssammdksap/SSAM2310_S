@@ -1,0 +1,41 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMObjectLists"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TechObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Sortfield"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "MyEquipment_Nav"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "MyFunctionalLocation_Nav"
+		}
+	],
+	"_Name": "WCMObjectList"
+}

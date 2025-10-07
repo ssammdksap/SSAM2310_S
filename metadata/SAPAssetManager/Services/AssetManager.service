@@ -1,0 +1,21 @@
+{
+	"AppId": "com.sap.sam2310.ka",
+	"ServiceUrl": "/destinations/mobileservices",
+	"DestinationName": "DEST_SAM2310_PPROP",
+	"LanguageURLParam": "sap-language",
+	"Headers": {
+		"SAP-PASSPORT": "/SAPAssetManager/Rules/Common/Passport/GetSAPPassportHeaderValue.js",
+		"x-app-info": "/SAPAssetManager/Rules/ApplicationEvents/AppInformationHeader.js"
+	},
+	"OfflineEnabled": true,
+	"OfflineOptions": {
+		"ServiceOptions": {
+			"supportsBind": false
+		},
+		"StoreParameters": {
+			"EnableIndividualErrorArchiveDeletion": true,
+			"EnableRequestQueueOptimization": true
+		}
+	},
+	"SourceType": "Mobile"
+}

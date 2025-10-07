@@ -1,0 +1,44 @@
+apply plugin: 'jacoco'
+
+repositories {
+    mavenCentral()
+}
+
+jacoco {
+    toolVersion = '0.8.1'
+}
+
+android {
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
+    buildTypes {
+        debug {
+            testCoverageEnabled false
+        }
+    }
+}
+
+dependencies {
+    implementation ('com.sap.cloud.android:foundation:24.4.12') {
+        exclude group: 'org.slf4j'
+        exclude group: 'androidx.lifecycle'
+        exclude group: 'androidx.appcompat'
+    }
+
+    implementation 'com.apptentive:apptentive-kit-android:6.8.0'
+    implementation "net.zetetic:sqlcipher-android:4.5.6"
+    implementation "androidx.sqlite:sqlite:2.4.0"
+    implementation "com.google.code.gson:gson:2.10.1"
+
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'androidx.test.ext:junit:1.1.5'
+    testImplementation 'org.robolectric:robolectric:4.11.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+}

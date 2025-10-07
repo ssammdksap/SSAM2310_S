@@ -1,0 +1,161 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ReservationItems"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Batch"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "RequirementQuantity"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "RequirementDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BackFlushIndicator"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorageBin"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MovementType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BusinessArea"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesOrderItem"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesOrderSchedule"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RecordType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SupplyPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SupplyStorageLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MovementAllowed"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Completed"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AccountAssignmentCategory"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "WithdrawalQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ReservationNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderOperationNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RequirementUOM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaterialNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesOrder"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WBSElement"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "GLAccount"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "QuantityUnE"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UnitOfEntry"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MaterialDocItem)",
+			"Key": false,
+			"_Name": "MaterialDocItem_Nav"
+		},
+		{
+			"_Type": "MaterialPlant",
+			"Key": false,
+			"_Name": "MaterialPlant_Nav"
+		},
+		{
+			"_Type": "ReservationHeader",
+			"Key": false,
+			"_Name": "ReservationHeader_Nav"
+		}
+	],
+	"_Name": "ReservationItem"
+}

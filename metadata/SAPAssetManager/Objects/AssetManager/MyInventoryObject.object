@@ -1,0 +1,101 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"MyInventoryObjects"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "IMObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemCount"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectIdExtn"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MatDocYear"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ObjectDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OrderId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "GenericObjectId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "InboundDelivery",
+			"Key": false,
+			"_Name": "InboundDelivery_Nav"
+		},
+		{
+			"_Type": "MaterialDocument",
+			"Key": false,
+			"_Name": "MaterialDocument_Nav"
+		},
+		{
+			"_Type": "OutboundDelivery",
+			"Key": false,
+			"_Name": "OutboundDelivery_Nav"
+		},
+		{
+			"_Type": "PhysicalInventoryDocHeader",
+			"Key": false,
+			"_Name": "PhysicalInventoryDocHeader_Nav"
+		},
+		{
+			"_Type": "ProductionOrderHeader",
+			"Key": false,
+			"_Name": "ProductionOrderHeader_Nav"
+		},
+		{
+			"_Type": "PurchaseOrderHeader",
+			"Key": false,
+			"_Name": "PurchaseOrderHeader_Nav"
+		},
+		{
+			"_Type": "PurchaseRequisitionHeader",
+			"Key": false,
+			"_Name": "PurchaseRequisitionHeader_Nav"
+		},
+		{
+			"_Type": "ReservationHeader",
+			"Key": false,
+			"_Name": "ReservationHeader_Nav"
+		},
+		{
+			"_Type": "StockTransportOrderHeader",
+			"Key": false,
+			"_Name": "StockTransportOrderHeader_Nav"
+		}
+	],
+	"_Name": "MyInventoryObject"
+}

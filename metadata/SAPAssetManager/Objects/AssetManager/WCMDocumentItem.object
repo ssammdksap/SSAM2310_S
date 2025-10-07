@@ -1,0 +1,261 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMDocumentItems"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Client"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WCMDocument"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WCMDocumentItem"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Sequence"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Predecessor"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Successor"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TechObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemCategoryCC"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OpGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TaggingStep"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TaggingCond"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TaggingType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TagSequence"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TaggingComment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UntaggingStep"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UntagCond"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UntaggingType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UntSequence"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UntagComment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PhysBlocking"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BlockingType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LockNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TagRequired"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PrintFormatTag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Tag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PrintFormatUntag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TestTag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SwitchingLoc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Location"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LongText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentLink"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Template"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Name"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLoc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Equipment"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FCODE"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "IsSelVar"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "MyEquipments"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "MyFunctionalLocations"
+		},
+		{
+			"_Type": "PMMobileStatus",
+			"Key": false,
+			"_Name": "PMMobileStatus"
+		},
+		{
+			"_Type": "WCMDocumentHeader",
+			"Key": false,
+			"_Name": "WCMDocumentHeaders"
+		},
+		{
+			"_Type": "Collection(WCMDocumentItemAttachment)",
+			"Key": false,
+			"_Name": "WCMDocumentItemAttachments"
+		},
+		{
+			"_Type": "Collection(WCMDocumentItemLongtext)",
+			"Key": false,
+			"_Name": "WCMDocumentItemLongtexts"
+		},
+		{
+			"_Type": "WCMDocumentTechnicalObject",
+			"Key": false,
+			"_Name": "WCMDocumentTechnicalObjects"
+		},
+		{
+			"_Type": "WCMOpGroup",
+			"Key": false,
+			"_Name": "WCMOpGroup_Nav"
+		},
+		{
+			"_Type": "Collection(WCMSystemStatus)",
+			"Key": false,
+			"_Name": "WCMSystemStatuses"
+		},
+		{
+			"_Type": "Collection(WCMUserStatus)",
+			"Key": false,
+			"_Name": "WCMUserStatuses"
+		}
+	],
+	"_Name": "WCMDocumentItem"
+}

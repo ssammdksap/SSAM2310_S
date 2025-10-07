@@ -1,0 +1,26 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMOpGroups"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OpGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextOpGroup"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(WCMDocumentItem)",
+			"Key": false,
+			"_Name": "WCMDocumentItem_Nav"
+		}
+	],
+	"_Name": "WCMOpGroup"
+}

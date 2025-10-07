@@ -1,0 +1,9 @@
+{
+    "_Type": "Action.Type.Message",
+    "Title": "$(L,AttachReqTitle)",
+    "Message": "$(L,attachment_missing)",
+    "OKCaption": "$(L,ok)"
+}
+
+
+

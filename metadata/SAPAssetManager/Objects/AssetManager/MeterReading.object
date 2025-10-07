@@ -1,0 +1,166 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"MeterReadings"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MeterReadingStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EstimatedResult"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PreviousReading"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PreviousReadingStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MeterReaderNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Register"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MeterReadingReason"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MeterReaderNote"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MeterReadingType"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "MeterReadingRecorded"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "PreviousReadingDate"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "PreviousReadingFloat"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "EstimatedResultFloat"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DateMaxRead"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "PreviousReadingTimestamp"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "MeterReadingDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ActualMeterReadingDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "SchedMeterReadingDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipmentNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MeterReadingTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PreviousReadingTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RegisterGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActualMeterReadingTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TimeMaxReading"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MeterReadingDocID"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(DeviceMeterReading)",
+			"Key": false,
+			"_Name": "DeviceMeterReading_Nav"
+		},
+		{
+			"_Type": "Device",
+			"Key": false,
+			"_Name": "Device_Nav"
+		},
+		{
+			"_Type": "MeterReadingReason",
+			"Key": false,
+			"_Name": "MeterReadingReason_Nav"
+		},
+		{
+			"_Type": "MeterReadingLimit",
+			"Key": false,
+			"_Name": "ReadLimit_Nav"
+		},
+		{
+			"_Type": "RegisterGroup",
+			"Key": false,
+			"_Name": "RegisterGroup_Nav"
+		}
+	],
+	"_Name": "MeterReading"
+}

@@ -1,0 +1,61 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"Vendors"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PostingBlock"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PurchaseBlock"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Name1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AddressNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PartnerNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Vendor"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Address",
+			"Key": false,
+			"_Name": "Address_Nav"
+		},
+		{
+			"_Type": "BusinessPartner",
+			"Key": false,
+			"_Name": "BusinessPartner_Nav"
+		},
+		{
+			"_Type": "PurchaseOrderHeader",
+			"Key": false,
+			"_Name": "PurchaseOrderHeader_Nav"
+		},
+		{
+			"_Type": "StockTransportOrderHeader",
+			"Key": false,
+			"_Name": "StockTransportOrderHeader_Nav"
+		}
+	],
+	"_Name": "Vendor"
+}

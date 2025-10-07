@@ -1,0 +1,91 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ConnectionObjects"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AuthorizationGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Country"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PoliticalRegStrutureElement"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaintenancePlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ConnectionObject"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "PMAuthorizationGroup",
+			"Key": false,
+			"_Name": "AuthorizationGroup_Nav"
+		},
+		{
+			"_Type": "Collection(ConnectionObjectMRNote)",
+			"Key": false,
+			"_Name": "ConnectionObjectMRNote_Nav"
+		},
+		{
+			"_Type": "Collection(DeviceLocation)",
+			"Key": false,
+			"_Name": "DeviceLocations_Nav"
+		},
+		{
+			"_Type": "Collection(Device)",
+			"Key": false,
+			"_Name": "Devices_Nav"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FuncLocation_Nav"
+		},
+		{
+			"_Type": "Collection(OrderISULink)",
+			"Key": false,
+			"_Name": "OrderISULink_Nav"
+		},
+		{
+			"_Type": "PolRegStructElement",
+			"Key": false,
+			"_Name": "PolRegStructElement_Nav"
+		},
+		{
+			"_Type": "Collection(Premise)",
+			"Key": false,
+			"_Name": "Premises_Nav"
+		},
+		{
+			"_Type": "StreetRouteConnectionObject",
+			"Key": false,
+			"_Name": "StreetRouteConnectionObject_Nav"
+		},
+		{
+			"_Type": "StreetRoute",
+			"Key": false,
+			"_Name": "StreetRoute_Nav"
+		}
+	],
+	"_Name": "ConnectionObject"
+}

@@ -1,0 +1,101 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"Forms"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Language"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LongDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DisplayId"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CreatedOn"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Status"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "FormId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Client"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MobileStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MatrixDisplayID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TypeDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Type"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Source"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Ownership"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectCount"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "UpdatedOn"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(ChecklistBusObject)",
+			"Key": false,
+			"_Name": "ChecklistBusObjects_Nav"
+		}
+	],
+	"_Name": "Form"
+}

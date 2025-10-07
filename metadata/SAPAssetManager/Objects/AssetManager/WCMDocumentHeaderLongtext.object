@@ -1,0 +1,41 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMDocumentHeaderLongtexts"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TextType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WCMDocument"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextString"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectNumber"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "WCMDocumentHeader",
+			"Key": false,
+			"_Name": "WCMDocumentHeaders"
+		}
+	],
+	"_Name": "WCMDocumentHeaderLongtext"
+}

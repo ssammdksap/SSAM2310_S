@@ -1,0 +1,46 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"AcctIndicators"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AcctIndicatorDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "AcctIndicator"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(Confirmation)",
+			"Key": false,
+			"_Name": "Confirmations"
+		},
+		{
+			"_Type": "Collection(S4ServiceConfirmationItem)",
+			"Key": false,
+			"_Name": "S4ConfirmItems_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceContractItem)",
+			"Key": false,
+			"_Name": "S4ContractItems_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceItem)",
+			"Key": false,
+			"_Name": "S4ServiceItems_Nav"
+		},
+		{
+			"_Type": "Collection(MyWorkOrderHeader)",
+			"Key": false,
+			"_Name": "WOHeaders_Nav"
+		}
+	],
+	"_Name": "AcctIndicator"
+}

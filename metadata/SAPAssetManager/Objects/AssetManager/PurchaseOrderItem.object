@@ -1,0 +1,131 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"PurchaseOrderItems"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "OpenQtyValBlocked"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrderUOM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorageLoc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaterialNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchaseOrderId"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "OrderQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StockType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SupplierMaterialNum"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "ReceivedQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DeliveryCompletedFlag"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "OpenQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValuationType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValuationCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FinalDeliveryFlag"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemNum"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "OpenQuantityBlocked"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MaterialDocItem)",
+			"Key": false,
+			"_Name": "MaterialDocItem_Nav"
+		},
+		{
+			"_Type": "MaterialPlant",
+			"Key": false,
+			"_Name": "MaterialPlant_Nav"
+		},
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Material_Nav"
+		},
+		{
+			"_Type": "Collection(PurchaseOrderSerialNumber)",
+			"Key": false,
+			"_Name": "POSerialNumber_Nav"
+		},
+		{
+			"_Type": "PurchaseOrderHeader",
+			"Key": false,
+			"_Name": "PurchaseOrderHeader_Nav"
+		},
+		{
+			"_Type": "Collection(ScheduleLine)",
+			"Key": false,
+			"_Name": "ScheduleLine_Nav"
+		}
+	],
+	"_Name": "PurchaseOrderItem"
+}

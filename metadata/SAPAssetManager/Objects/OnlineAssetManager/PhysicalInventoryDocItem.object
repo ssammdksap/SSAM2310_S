@@ -1,0 +1,201 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"PhysicalInventoryDocItems"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "FiscalYear"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Item"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PhysInvDoc"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "BaseQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BaseUOM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Batch"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "BookQuantity"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CountDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CountedBy"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Customer"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Deleted"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "DifferenceAmt"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "EntryQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EntryUOM"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ItemCounted"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MatDocItem"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MatDocYear"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Material"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaterialDoc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PhysInvRef"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "PostingDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Recount"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RecountDoc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SOrderSchedule"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesOrder"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Salesorditem"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SpecialStock"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StockType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StorLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Supplier"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValuationCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValuationType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ZeroCount"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "PhysicalInventoryDocHeader",
+			"Key": false,
+			"_Name": "PhysicalInventoryDocHeader_Nav"
+		},
+		{
+			"_Type": "Collection(PhysicalInventoryDocItemSerial)",
+			"Key": false,
+			"_Name": "PhysicalInventoryDocItemSerial_Nav"
+		},
+		{
+			"_Type": "Plant",
+			"Key": false,
+			"_Name": "Plant_Nav"
+		},
+		{
+			"_Type": "StorageLocation",
+			"Key": false,
+			"_Name": "StorageLocation_Nav"
+		}
+	],
+	"_Name": "PhysicalInventoryDocItem"
+}

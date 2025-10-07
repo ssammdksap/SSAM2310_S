@@ -1,0 +1,51 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WorkRequestConsequences"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ConsequenceId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "GroupId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LeadingConsequence"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LikelihoodId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PrioritizationProfileId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "CategoryId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Notification"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyNotificationHeader",
+			"Key": false,
+			"_Name": "MyNotificationHeader_Nav"
+		}
+	],
+	"_Name": "WorkRequestConsequence"
+}

@@ -1,0 +1,81 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"MeterReadingLimits"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ErrorMaxLimitChar"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ErrorMinLimitChar"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WarningMaxLimitChar"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WarningMinLimitChar"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Register"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "ErrorMaxLimit"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "ErrorMinLimit"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "WarningMaxLimit"
+		},
+		{
+			"_Type": "Edm.Double",
+			"Key": false,
+			"_Name": "WarningMinLimit"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "MeterReadingLimitDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "EquipmentNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MeterReadingDocID"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MeterReading",
+			"Key": false,
+			"_Name": "MeterReading_Nav"
+		},
+		{
+			"_Type": "PeriodicMeterReading",
+			"Key": false,
+			"_Name": "PeriodicMeterReading_Nav"
+		}
+	],
+	"_Name": "MeterReadingLimit"
+}

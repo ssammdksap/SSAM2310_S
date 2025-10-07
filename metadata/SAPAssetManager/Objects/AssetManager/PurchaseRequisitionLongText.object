@@ -1,0 +1,56 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"PurchaseRequisitionLongTexts"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchaseReqNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PurchaseReqItemNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextString"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NewTextString"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TextId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextObjType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectKey"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "PurchaseRequisitionHeader",
+			"Key": false,
+			"_Name": "PurchaseRequisitionHeader_Nav"
+		},
+		{
+			"_Type": "PurchaseRequisitionItem",
+			"Key": false,
+			"_Name": "PurchaseRequisitionItem_Nav"
+		}
+	],
+	"_Name": "PurchaseRequisitionLongText"
+}

@@ -1,0 +1,46 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ConsequenceSeverities"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Position"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "CategoryId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ConsequenceId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "GroupId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PrioritizationProfileId"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "ConsequenceCategory",
+			"Key": false,
+			"_Name": "ConsequenceCategory_Nav"
+		}
+	],
+	"_Name": "ConsequenceSeverity"
+}

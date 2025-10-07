@@ -1,0 +1,496 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMDocumentHeaders"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "TimeEF"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DateLS"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DateEF"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "TimeES"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DateES"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "TimeLS"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DateLF"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "TimeLF"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DatePS"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "TimePS"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "FinishTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Activity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SubnetworkOf"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WBSElement"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "LastChangedat"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ChangedOn"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ChangedBy"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "CreatedAt"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "CreatedOn"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CreatedBy"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Train"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "DatePF"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "TimePF"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ActualStartDate"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "ActualStartTime"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ActualFinishDate"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "ActualFinishTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RevisionPhase"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentLink"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusProfileItem"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Template"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RemarksMt"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "RemarksOp"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OpCardNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShiftChief"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OTGuardian"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OTOperator"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OnDutyResponsible"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "OTStarton"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "OTEndon"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "EndTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Usage"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LongText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Delete"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UGTextExists"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TGTextExists"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CatalogFirstExists"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CatalogSecondExists"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkCenterObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AuthorizGroup"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "ValidFromTime"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "ValidToTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OverallCondtn"
+		},
+		{
+			"_Type": "Edm.Decimal",
+			"Key": false,
+			"_Name": "RecallTime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Unit"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Priority"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FuncLocIdIntern"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjListExists"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "Approvedon"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "Approvaltime"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WCMDocument"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkCenterID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Application"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlannerGroup"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ValidFromDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ValidToDate"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "Basstartdate"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "StartTime"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "BasicFinDate"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "BasicFinTime"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "SchedStart"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "SchedStartTime"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "SchedFinish"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "Timest"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActualSystemStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TrafficLight"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "IsSelVar"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "MyEquipments"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "MyFunctionalLocations"
+		},
+		{
+			"_Type": "Collection(WCMApplicationDocument)",
+			"Key": false,
+			"_Name": "WCMApplicationDocuments"
+		},
+		{
+			"_Type": "Collection(WCMApprovalProcess)",
+			"Key": false,
+			"_Name": "WCMApprovalProcesses"
+		},
+		{
+			"_Type": "Collection(WCMCatalog)",
+			"Key": false,
+			"_Name": "WCMCatalogs"
+		},
+		{
+			"_Type": "Collection(WCMDocumentHeaderAttachment)",
+			"Key": false,
+			"_Name": "WCMDocumentHeaderAttachments"
+		},
+		{
+			"_Type": "Collection(WCMDocumentHeaderLongtext)",
+			"Key": false,
+			"_Name": "WCMDocumentHeaderLongtexts"
+		},
+		{
+			"_Type": "Collection(WCMDocumentItem)",
+			"Key": false,
+			"_Name": "WCMDocumentItems"
+		},
+		{
+			"_Type": "Collection(WCMDocumentPartner)",
+			"Key": false,
+			"_Name": "WCMDocumentPartners"
+		},
+		{
+			"_Type": "WCMDocumentUsage",
+			"Key": false,
+			"_Name": "WCMDocumentUsages"
+		},
+		{
+			"_Type": "Collection(WCMSystemStatus)",
+			"Key": false,
+			"_Name": "WCMSystemStatuses"
+		},
+		{
+			"_Type": "Collection(WCMUserStatus)",
+			"Key": false,
+			"_Name": "WCMUserStatuses"
+		},
+		{
+			"_Type": "WorkCenter",
+			"Key": false,
+			"_Name": "WorkCenters"
+		}
+	],
+	"_Name": "WCMDocumentHeader"
+}

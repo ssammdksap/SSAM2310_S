@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ServiceValuationTypes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ValuationType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(S4ServiceConfirmationItem)",
+			"Key": false,
+			"_Name": "S4ConfirmationItem_Nav"
+		},
+		{
+			"_Type": "Collection(S4ServiceItem)",
+			"Key": false,
+			"_Name": "S4ServiceItems_Nav"
+		}
+	],
+	"_Name": "ServiceValuationType"
+}

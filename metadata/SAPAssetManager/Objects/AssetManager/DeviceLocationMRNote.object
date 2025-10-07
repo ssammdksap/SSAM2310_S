@@ -1,0 +1,41 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DeviceLocationMRNotes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NoteID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Priority"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SequenceNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DeviceLocation"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "DeviceLocation",
+			"Key": false,
+			"_Name": "DeviceLocation_Nav"
+		},
+		{
+			"_Type": "MeterReaderNote",
+			"Key": false,
+			"_Name": "MeterReaderNote_Nav"
+		}
+	],
+	"_Name": "DeviceLocationMRNote"
+}

@@ -1,0 +1,84 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMCatalogLongtexts"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Textobject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Item"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Tagcolumn"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TDLINE"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TEXT_STRING"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NEW_STRING"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectNumber"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextID1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WCDocument"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Item1"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WorkApproval"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Application"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Counter"
+		}
+	],
+	"_Name": "WCMCatalogLongtext"
+}

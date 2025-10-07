@@ -1,0 +1,36 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DetectionCodes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DetectionCodeDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DetectionCatalog"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DetectionCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DetectionGroup"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(MyNotificationHeader)",
+			"Key": false,
+			"_Name": "NotifHeader_Nav"
+		}
+	],
+	"_Name": "DetectionCode"
+}

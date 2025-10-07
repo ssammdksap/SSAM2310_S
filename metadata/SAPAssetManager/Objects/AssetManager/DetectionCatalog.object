@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DetectionCatalogs"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DetectionCatalog"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DetectionCatalogDesc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "NotifType"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "NotificationType",
+			"Key": false,
+			"_Name": "NotifType_Nav"
+		}
+	],
+	"_Name": "DetectionCatalog"
+}

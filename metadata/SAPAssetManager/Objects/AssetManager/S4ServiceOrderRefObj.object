@@ -1,0 +1,91 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"S4ServiceOrderRefObjs"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReferenceType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemNo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HeaderID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MainObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Counter"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ProductID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SerialNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FLocID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipID"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MyEquipment",
+			"Key": false,
+			"_Name": "Equipment_Nav"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FuncLoc_Nav"
+		},
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Material_Nav"
+		},
+		{
+			"_Type": "S4ServiceItem",
+			"Key": false,
+			"_Name": "S4ServiceItem_Nav"
+		},
+		{
+			"_Type": "S4ServiceOrder",
+			"Key": false,
+			"_Name": "S4ServiceOrder_Nav"
+		}
+	],
+	"_Name": "S4ServiceOrderRefObj"
+}

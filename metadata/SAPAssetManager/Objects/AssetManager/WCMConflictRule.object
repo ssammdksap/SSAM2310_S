@@ -1,0 +1,64 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMConflictRules"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Client"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "OpGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "FirstOpCond"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "FirstOpType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SecondOpCond"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SecondOpType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MessageType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Createdby"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "Createdon"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "Createdat"
+		}
+	],
+	"_Name": "WCMConflictRule"
+}

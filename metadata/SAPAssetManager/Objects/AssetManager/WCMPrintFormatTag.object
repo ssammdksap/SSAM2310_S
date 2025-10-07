@@ -1,0 +1,29 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMPrintFormatTags"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PrintCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PrintFormat"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortText"
+		}
+	],
+	"_Name": "WCMPrintFormatTag"
+}

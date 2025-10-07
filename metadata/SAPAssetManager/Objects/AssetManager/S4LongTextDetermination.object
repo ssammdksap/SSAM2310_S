@@ -1,0 +1,59 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"S4LongTextDeterminations"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TextObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TextDeterminationProc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "TextType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Sequence"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Changes"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TransferType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Redetermination"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObligatoryText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AccessSequence"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		}
+	],
+	"_Name": "S4LongTextDetermination"
+}

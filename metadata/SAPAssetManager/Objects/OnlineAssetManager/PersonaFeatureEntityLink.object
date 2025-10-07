@@ -1,0 +1,24 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"PersonaFeatureEntityLinks"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserPersona"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "AppFeature"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Entity"
+		}
+	],
+	"_Name": "PersonaFeatureEntityLink"
+}

@@ -1,0 +1,29 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"MeterReadingNotes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ControlFollowUpAction"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "NoteID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ProcessType"
+		}
+	],
+	"_Name": "MeterReadingNote"
+}

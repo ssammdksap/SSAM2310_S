@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "334768069459",
+    "firebase_url": "https://sap-asset-manager-b5e09.firebaseio.com",
+    "project_id": "sap-asset-manager-b5e09",
+    "storage_bucket": "sap-asset-manager-b5e09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334768069459:android:eb6eea5be92b6b36",
+        "android_client_info": {
+          "package_name": "com.sap.mobile.apps.assetmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334768069459-t8qar2ics4drgm0goa4kn48vfu2f9h24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeSspXmWCvnwA3mx_CX3oVWL0z0fl5ryo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334768069459:android:9a26f9f095698382",
+        "android_client_info": {
+          "package_name": "com.sap.mobile.apps.assetmanager.sewacr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334768069459-t8qar2ics4drgm0goa4kn48vfu2f9h24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeSspXmWCvnwA3mx_CX3oVWL0z0fl5ryo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334768069459-t8qar2ics4drgm0goa4kn48vfu2f9h24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DigitalSignatureNotes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NoteDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "NoteId"
+		}
+	],
+	"_Name": "DigitalSignatureNote"
+}

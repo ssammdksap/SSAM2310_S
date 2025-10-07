@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMApprovalApplications"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WCMApproval"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "WCMApplication"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "WCMApplication",
+			"Key": false,
+			"_Name": "WCMApplications"
+		},
+		{
+			"_Type": "WCMApproval",
+			"Key": false,
+			"_Name": "WCMApprovals"
+		}
+	],
+	"_Name": "WCMApprovalApplication"
+}

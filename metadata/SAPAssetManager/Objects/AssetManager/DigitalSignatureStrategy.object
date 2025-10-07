@@ -1,0 +1,66 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DigitalSignatureStrategies"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StrategyDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ApplicationId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Method"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Strategy"
+		},
+		{
+			"_Type": "Edm.Boolean",
+			"Key": false,
+			"_Name": "AllowComment"
+		},
+		{
+			"_Type": "Edm.Boolean",
+			"Key": false,
+			"_Name": "AllowRemark"
+		},
+		{
+			"_Type": "Edm.Boolean",
+			"Key": false,
+			"_Name": "AllowVerification"
+		},
+		{
+			"_Type": "Edm.Boolean",
+			"Key": false,
+			"_Name": "AllowDocument"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(DigitalSignatureHeader)",
+			"Key": false,
+			"_Name": "DigitalSignatureHeader_Nav"
+		},
+		{
+			"_Type": "Collection(DigitalSignatureLink)",
+			"Key": false,
+			"_Name": "DigitalSignatureLink_Nav"
+		},
+		{
+			"_Type": "DigitalSignatureMethod",
+			"Key": false,
+			"_Name": "DigitalSignatureMethod_Nav"
+		}
+	],
+	"_Name": "DigitalSignatureStrategy"
+}

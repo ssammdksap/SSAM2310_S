@@ -1,0 +1,26 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DigitalSignatureTypes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SignatureTypeDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SignatureType"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(DigitalSignatureHeader)",
+			"Key": false,
+			"_Name": "DigitalSignatureHeader_Nav"
+		}
+	],
+	"_Name": "DigitalSignatureType"
+}

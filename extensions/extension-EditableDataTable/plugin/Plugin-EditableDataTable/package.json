@@ -1,0 +1,17 @@
+{
+  "name":"extension-EditableDataTable",
+  "version":"2410.0.7",
+  "description":"An editable data table plugin for MDK",
+  "main":"index.js",
+  "nativescript":{
+    "platforms":{
+      "ios":"8.6.4",
+      "android":"8.6.2"
+    }
+  },
+  "scripts":{
+    "test":"test"
+  },
+  "author":"SAP",
+  "license":"ISC"
+}

@@ -1,0 +1,66 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DeviceLocations"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ConnectionObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "LocationAddition"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DeviceLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Premise"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "ConnectionObject",
+			"Key": false,
+			"_Name": "ConnectionObject_Nav"
+		},
+		{
+			"_Type": "Collection(DeviceLocationMRNote)",
+			"Key": false,
+			"_Name": "DeviceLocationMRNote_Nav"
+		},
+		{
+			"_Type": "Device",
+			"Key": false,
+			"_Name": "Device_Nav"
+		},
+		{
+			"_Type": "MyFunctionalLocation",
+			"Key": false,
+			"_Name": "FuncLocation_Nav"
+		},
+		{
+			"_Type": "Collection(OrderISULink)",
+			"Key": false,
+			"_Name": "OrderISULink_Nav"
+		},
+		{
+			"_Type": "Premise",
+			"Key": false,
+			"_Name": "Premise_Nav"
+		}
+	],
+	"_Name": "DeviceLocation"
+}

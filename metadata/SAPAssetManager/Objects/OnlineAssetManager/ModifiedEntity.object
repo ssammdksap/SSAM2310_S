@@ -1,0 +1,14 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"ModifiedEntities"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "EntityName"
+		}
+	],
+	"_Name": "ModifiedEntity"
+}

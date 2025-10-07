@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"BlockingStatuses"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DeliveryBlock"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DeliveryBlockDesc"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "InboundDelivery",
+			"Key": false,
+			"_Name": "InboundDelivery_Nav"
+		},
+		{
+			"_Type": "OutboundDelivery",
+			"Key": false,
+			"_Name": "OutboundDelivery_Nav"
+		}
+	],
+	"_Name": "BlockingStatus"
+}

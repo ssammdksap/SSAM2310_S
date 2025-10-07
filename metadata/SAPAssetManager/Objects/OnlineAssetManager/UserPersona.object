@@ -1,0 +1,34 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"UserPersonas"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonaCode"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PersonaType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserGUID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "UserPersona"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FlagDefault"
+		}
+	],
+	"_Name": "UserPersona"
+}

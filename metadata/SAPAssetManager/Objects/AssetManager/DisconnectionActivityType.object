@@ -1,0 +1,26 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DisconnectionActivityTypes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ActivityType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActivityTypeDescription"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "DisconnectionActivity",
+			"Key": false,
+			"_Name": "DisconnectionActivity_Nav"
+		}
+	],
+	"_Name": "DisconnectionActivityType"
+}

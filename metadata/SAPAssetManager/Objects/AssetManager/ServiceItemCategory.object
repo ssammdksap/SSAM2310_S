@@ -1,0 +1,251 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ServiceItemCategories"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "AssignCO"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "IncompleteGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FixedDateQty"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "IndObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Profile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WoutProduct"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EnhancementProf"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "APProcedure"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MandatPredecRef"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "FilterID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjRefMand"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DefaultConfig"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SCRelev"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "QuantityValueItem"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TerritoryCheck"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Language"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Description"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DescriptionLong"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ShortDescriptionLong"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ServiceType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ValuationType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SubjectProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ResrcePlanning"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Confirmation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReltoCosting"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TimeRuleName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CounRuleName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "InspectnRelvnt"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ItemCategory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Inactive"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextDetProc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PartnerDetProc"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ATPProf"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Relevwgtvol"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Structurescope"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "OrgDataProf"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Varmatching"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Varmatchact"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DateProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ActionProfile"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "CondGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DeliveryGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "StatusObjectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ConfProc"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(S4ServiceItem)",
+			"Key": false,
+			"_Name": "S4ServiceItems_Nav"
+		}
+	],
+	"_Name": "ServiceItemCategory"
+}

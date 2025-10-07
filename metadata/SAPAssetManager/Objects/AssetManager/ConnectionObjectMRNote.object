@@ -1,0 +1,41 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"ConnectionObjectMRNotes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Priority"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NoteID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ConnectionObject"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SequenceNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "ConnectionObject",
+			"Key": false,
+			"_Name": "ConnectionObject_Nav"
+		},
+		{
+			"_Type": "MeterReaderNote",
+			"Key": false,
+			"_Name": "MeterReaderNote_Nav"
+		}
+	],
+	"_Name": "ConnectionObjectMRNote"
+}

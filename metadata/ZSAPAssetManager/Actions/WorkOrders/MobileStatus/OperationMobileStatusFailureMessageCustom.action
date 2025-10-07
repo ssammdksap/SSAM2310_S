@@ -1,0 +1,7 @@
+{
+	"_Type": "Action.Type.Message",
+	"Message": "$(L,'operation_cannot_be_completed_due_to_ord_type')",
+	"Title": "$(L,ExceptionTitle)",
+	"OKCaption": "$(L,ok)",
+	"OnOK": "/ZSAPAssetManager/Rules/Operations/MobileStatus/NavigationToNotification.js"
+}

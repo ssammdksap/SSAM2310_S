@@ -1,0 +1,26 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"RejectionReasons"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReasonDescription"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ReasonCode"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(PMMobileStatus)",
+			"Key": false,
+			"_Name": "PMMobileStatus_Nav"
+		}
+	],
+	"_Name": "RejectionReason"
+}

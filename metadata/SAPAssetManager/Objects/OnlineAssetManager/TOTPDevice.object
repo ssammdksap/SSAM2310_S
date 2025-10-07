@@ -1,0 +1,71 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"TOTPDevices"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.Int32",
+			"Key": true,
+			"_Name": "DeviceId"
+		},
+		{
+			"_Type": "Edm.Boolean",
+			"Key": false,
+			"_Name": "DefaultDeviceFlag"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "Delay"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "Digits"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "StepSeconds"
+		},
+		{
+			"_Type": "Edm.Int32",
+			"Key": false,
+			"_Name": "TOTP"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "HashAlgorithm"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "KeyURI"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Passphrase"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Seed"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EncryptionAlgorithm"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "TOTPDeviceValidate",
+			"Key": false,
+			"_Name": "TOTPDeviceValidate_Nav"
+		}
+	],
+	"_Name": "TOTPDevice"
+}

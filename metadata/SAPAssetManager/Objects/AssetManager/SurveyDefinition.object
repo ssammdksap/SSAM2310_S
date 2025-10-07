@@ -1,0 +1,131 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"SurveyDefinitions"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SurveyQuestionText"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Selected"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "Rating"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "MaxLength"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "Size"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Mandatory"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "TextPosition"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SurveyID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SurveyVersion"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Language"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SurveyGUID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "NodeNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SurveyNodeType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SurveyNodeId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SectionPattern"
+		},
+		{
+			"_Type": "Edm.Int16",
+			"Key": false,
+			"_Name": "RatingFactor"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Style"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "Type"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ReadOnly"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Collection(SurveyList)",
+			"Key": false,
+			"_Name": "SurveyDef_SurveyList"
+		},
+		{
+			"_Type": "Collection(SurveyAnswer)",
+			"Key": false,
+			"_Name": "SurveyDefinition_SurveyAnswer"
+		},
+		{
+			"_Type": "Collection(SurveyItem)",
+			"Key": false,
+			"_Name": "SurveyDefinition_SurveyItem"
+		},
+		{
+			"_Type": "Collection(SurveyQuestion)",
+			"Key": false,
+			"_Name": "SurveyDefinition_SurveyQuestion"
+		},
+		{
+			"_Type": "Collection(SurveySection)",
+			"Key": false,
+			"_Name": "SurveyDefinition_SurveySection"
+		}
+	],
+	"_Name": "SurveyDefinition"
+}

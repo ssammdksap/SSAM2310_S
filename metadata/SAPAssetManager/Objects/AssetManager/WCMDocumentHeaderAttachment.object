@@ -1,0 +1,41 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMDocumentHeaderAttachments"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RelationshipID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Objectkey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WCMDocument"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Document",
+			"Key": false,
+			"_Name": "Document"
+		},
+		{
+			"_Type": "WCMDocumentHeader",
+			"Key": false,
+			"_Name": "WCMDocumentHeaders"
+		}
+	],
+	"_Name": "WCMDocumentHeaderAttachment"
+}

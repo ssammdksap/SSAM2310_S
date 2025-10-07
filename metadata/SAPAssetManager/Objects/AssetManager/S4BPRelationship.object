@@ -1,0 +1,31 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"S4BPRelationships"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "BusinessPartnerFrom"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "BusinessPartnerTo"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RelType"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "S4BusinessPartner",
+			"Key": false,
+			"_Name": "S4BusinessPartner_Nav"
+		}
+	],
+	"_Name": "S4BPRelationship"
+}

@@ -1,0 +1,44 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMWorkReqTexts"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PropertyName"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PropertyLabel"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PropertyVisible"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "GroupId"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UsageType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "GroupTitle"
+		}
+	],
+	"_Name": "WCMWorkReqText"
+}

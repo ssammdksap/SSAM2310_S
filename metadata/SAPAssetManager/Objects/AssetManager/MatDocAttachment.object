@@ -1,0 +1,46 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"MatDocAttachments"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectKey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RelationShipID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MatDocYear"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "MaterialDoc"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Document",
+			"Key": false,
+			"_Name": "Document_Nav"
+		},
+		{
+			"_Type": "MaterialDocument",
+			"Key": false,
+			"_Name": "MaterialDocument_Nav"
+		}
+	],
+	"_Name": "MatDocAttachment"
+}

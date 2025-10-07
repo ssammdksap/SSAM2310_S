@@ -1,0 +1,24 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMPhysicalBlockingTypes"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "PlanningPlant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "BlockingType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "BlockingTypeText"
+		}
+	],
+	"_Name": "WCMPhysicalBlockingType"
+}

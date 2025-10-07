@@ -1,0 +1,101 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"S4BPSalesAreas"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ProcessType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "BusinessPartner"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SalesOrg"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DistributionChannel"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Division"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SalesRespOrg"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SalesGroup"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "SalesOffice"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesOrgShort"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesGroupShort"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesOfficeShort"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "SalesRespOrgShort"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "DistributionChannel",
+			"Key": false,
+			"_Name": "DistributionChannel_Nav"
+		},
+		{
+			"_Type": "Division",
+			"Key": false,
+			"_Name": "Division_Nav"
+		},
+		{
+			"_Type": "SalesGroup",
+			"Key": false,
+			"_Name": "SalesGroup_Nav"
+		},
+		{
+			"_Type": "SalesOffice",
+			"Key": false,
+			"_Name": "SalesOffice_Nav"
+		},
+		{
+			"_Type": "SalesOrg",
+			"Key": false,
+			"_Name": "SalesOrg_Nav"
+		},
+		{
+			"_Type": "SalesRespOrg",
+			"Key": false,
+			"_Name": "SalesRespOrg_Nav"
+		}
+	],
+	"_Name": "S4BPSalesArea"
+}

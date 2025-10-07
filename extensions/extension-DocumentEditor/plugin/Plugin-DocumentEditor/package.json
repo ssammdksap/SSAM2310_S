@@ -1,0 +1,17 @@
+{
+  "name":"extension-DocumentEditor",
+  "version":"2410.0.6",
+  "description":"A Document Editor plugin for MDK",
+  "main":"index.js",
+  "nativescript":{
+    "platforms":{
+      "ios":"8.6.4",
+      "android":"8.6.2"
+    }
+  },
+  "scripts":{
+    "test":"test"
+  },
+  "author":"SAP",
+  "license":"ISC"
+}

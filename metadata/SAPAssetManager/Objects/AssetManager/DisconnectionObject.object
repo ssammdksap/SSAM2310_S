@@ -1,0 +1,76 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"DisconnectionObjects"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DisconnectStatus"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DeviceLocation"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "ObjectType"
+		},
+		{
+			"_Type": "Edm.Time",
+			"Key": false,
+			"_Name": "ActivityTime"
+		},
+		{
+			"_Type": "Edm.DateTime",
+			"Key": false,
+			"_Name": "ActivityDate"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ActivityNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "ObjectNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "EquipmentNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DisconnectType"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "DocNum"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Device",
+			"Key": false,
+			"_Name": "Device_Nav"
+		},
+		{
+			"_Type": "DisconnectionActivity",
+			"Key": false,
+			"_Name": "DisconnectActivity_Nav"
+		},
+		{
+			"_Type": "DisconnectionDocument",
+			"Key": false,
+			"_Name": "DisconnectDoc_Nav"
+		}
+	],
+	"_Name": "DisconnectionObject"
+}

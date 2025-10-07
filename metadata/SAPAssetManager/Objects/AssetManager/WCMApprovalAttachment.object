@@ -1,0 +1,41 @@
+{
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"Collection": [
+		"WCMApprovalAttachments"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "RelationshipID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Objectkey"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "DocumentID"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "WCMApproval"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "Document",
+			"Key": false,
+			"_Name": "Document"
+		},
+		{
+			"_Type": "WCMApproval",
+			"Key": false,
+			"_Name": "WCMApprovals"
+		}
+	],
+	"_Name": "WCMApprovalAttachment"
+}

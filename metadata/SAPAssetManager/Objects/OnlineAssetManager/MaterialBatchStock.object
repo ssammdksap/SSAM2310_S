@@ -1,0 +1,51 @@
+{
+	"Service": "/SAPAssetManager/Services/OnlineAssetManager.service",
+	"Collection": [
+		"MaterialBatchStockSet"
+	],
+	"Properties": [
+		{
+			"_Type": "Edm.String",
+			"Key": false,
+			"_Name": "UnrestrictedQuantity"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Batch"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "MaterialNum"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "Plant"
+		},
+		{
+			"_Type": "Edm.String",
+			"Key": true,
+			"_Name": "StorageLocation"
+		}
+	],
+	"NavigationProperties": [
+		{
+			"_Type": "MaterialPlant",
+			"Key": false,
+			"_Name": "MaterialPlant_Nav"
+		},
+		{
+			"_Type": "MaterialSLoc",
+			"Key": false,
+			"_Name": "MaterialSLoc_Nav"
+		},
+		{
+			"_Type": "Material",
+			"Key": false,
+			"_Name": "Material_Nav"
+		}
+	],
+	"_Name": "MaterialBatchStock"
+}

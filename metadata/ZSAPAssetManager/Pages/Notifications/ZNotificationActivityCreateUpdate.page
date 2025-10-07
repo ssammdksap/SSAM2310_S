@@ -1,0 +1,156 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.FormCellContainer",
+			"_Name": "FormCellContainer",
+			"Sections": [
+				{
+					"Header": {
+						"UseTopPadding": false
+					},
+					"Controls": [
+							{
+							"Value": "{ActivityCodeGroup}",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "GroupLstPkr",
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": true,
+							"Caption": "$(L,group)",
+							"OnValueChange": "/SAPAssetManager/Rules/Notifications/Activity/CreateUpdate/NotificationActivityCreateUpdateCode.js",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": true,
+							"IsEditable": true,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"BarcodeScanner": true,
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": "/SAPAssetManager/Rules/Notifications/Item/CreateUpdate/NotificationItemPartGroupPickerItems.js"
+						},
+						{
+							"Value": "{ActivityCode}",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "CodeLstPkr",
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": true,
+							"Caption": "Meter Type",
+							"OnValueChange": "/ZSAPAssetManager/Rules/Common/Validation/ZOnMeterCodeTypeChange.js",
+							"IsSelectedSectionEnabled": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"AllowDefaultValueIfOneItem": true,
+							"IsEditable": false,
+							"Search": {
+								"Enabled": true,
+								"Placeholder": "$(L,search)",
+								"BarcodeScanner": true,
+								"Delay": 500,
+								"MinimumCharacterThreshold": 3
+							},
+							"PickerItems": {
+								"DisplayValue": "{{#Property:Code}} - {{#Property:CodeDescription}}",
+								"ReturnValue": "{Code}",
+								"Target": {
+									"EntitySet": "PMCatalogCodes",
+									"Service": "/SAPAssetManager/Services/AssetManager.service",
+									"QueryOptions": "/SAPAssetManager/Rules/Notifications/Activity/NotificationActivityCodeQuery.js"
+								}
+							}
+						},
+						{
+							"_Type": "Control.Type.FormCell.Button",
+							"_Name": "ScannerButton",
+							"IsVisible": false,
+							"Alignment": "Center",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"Image": "sap-icon://bar-code",
+							"ImagePosition": "Leading",
+							"Enabled": true,
+							"OnPress":"/ZSAPAssetManager/Actions/BarCode/OpenBarCodeScranner.action"
+						},
+						{
+							"Value": "/ZSAPAssetManager/Rules/Meter/Format/ZGetMeterNumber.js",
+							"_Type": "Control.Type.FormCell.Note",
+							"_Name": "DescriptionTitle",
+							"IsVisible": true,
+							"Caption": "$(L,serial_number)",
+							"PlaceHolder": "Enter Serial Number",
+							"OnValueChange": "/SAPAssetManager/Rules/Common/Validation/FormCellNoteValidation.js",
+							"Enabled": true,
+							"IsEditable": false
+						},
+						{
+							"IsAutoResizing": true,
+							"_Type": "Control.Type.FormCell.Note",
+							"_Name": "LongTextNote",
+							"IsVisible": "/SAPAssetManager/Rules/Common/IsOnCreate.js",
+							"Caption": "Reading",
+							"PlaceHolder": "Enter Reading",
+							"Enabled": true,
+							"IsEditable": true
+						},
+						{
+							"IsAutoResizing": true,
+							"_Type": "Control.Type.FormCell.Note",
+							"_Name": "QuantityFactor",
+							"IsVisible": false,
+							"Caption": "Multi Factor",
+							"PlaceHolder": "Enter Value",
+							"Enabled": true,
+							"IsEditable": true
+						}
+					],
+					"_Name": "FormCellSection0",
+					"Visible": true
+				},
+				{
+					"Controls": [
+						{
+							"_Type": "Control.Type.FormCell.Button",
+							"_Name": "DiscardButton",
+							"IsVisible": "/SAPAssetManager/Rules/Common/IsDiscardButtonVisible.js",
+							"Title": "$(L,discard)",
+							"Alignment": "Center",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"ImagePosition": "Leading",
+							"Enabled": true,
+							"OnPress": "/SAPAssetManager/Rules/Common/DiscardAction.js"
+						}
+					],
+					"_Name": "FormCellSection3",
+					"Visible": true
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "NotificationActivityAddPage",
+	"OnLoaded": "/ZSAPAssetManager/Rules/Notifications/CreateUpdate/ZNotificationActivityCreateUpdateOnPageLoad.js",
+	"OnActivityBackPressed": "/SAPAssetManager/Rules/WorkOrders/CreateUpdate/CancelCheckOnBackNavAndroid.js",
+	"Caption": "$(L,add_serial_number)",
+	"ActionBar": {
+		"Items": [
+			"/SAPAssetManager/Pages/Fragments/CancelButton.fragment",
+			{
+				"Text": "/SAPAssetManager/Rules/Common/Platform/DoneText.js",
+				"_Type": "Control.Type.ActionBarItem",
+				"_Name": "ActionBarItem0",
+				"Caption": "",
+				"SystemItem": "$(PLT,'Done','')",
+				"Position": "right",
+				"IsIconCircular": false,
+				"OnPress": "/SAPAssetManager/Actions/Notifications/Activity/NotificationActivityCreateUpdateRequired.action"
+			}
+		],
+		"_Name": "ActionBar0",
+		"_Type": "Control.Type.ActionBar"
+	}
+}
