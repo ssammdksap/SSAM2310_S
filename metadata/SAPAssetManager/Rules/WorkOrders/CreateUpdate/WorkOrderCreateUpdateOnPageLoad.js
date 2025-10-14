@@ -18,7 +18,8 @@ export default function WorkOrderCreateUpdateOnPageLoad(context) {
 
     SetUpAttachmentTypes(context);
     libCom.saveInitialValues(context);
-    return GetWOGeometryDateFromPrevPageBinding(context).then(geometryData => SetWOCreateUpdateLocationSection(context, geometryData));
+    return GetWOGeometryDateFromPrevPageBinding(context).then(geometryData => SetWOCreateUpdateLocationSection(context, geometryData))
+    .then(() => setSoldToPartyPicker(context));
 }
 
 /** @returns {Promise<Geometry>} */
@@ -56,4 +57,34 @@ function SetWOCreateUpdateLocationSection(context, geometryData) {
 
     // redraw LocationButtonsSection
     container.getSection('LocationButtonsSection').redraw();
+}
+
+function setSoldToPartyPicker(context) {
+    let picker = context.getControl('FormCellContainer').getControl('SoldToPartyLstPkr');
+    let specifier = picker.getTargetSpecifier();
+    if (context?.binding && context?.binding?.WOSales_Nav) {
+        let salesOrg = context?.binding?.WOSales_Nav?.SalesOrg;
+        let distributionChannel = context?.binding?.WOSales_Nav?.DistributionChannel;
+        let division = context?.binding?.WOSales_Nav?.Division;
+        let queryOptions = `$filter=SalesOrg eq '${salesOrg}' and DistributionChannel eq '${distributionChannel}' and Division eq '${division}'&$expand=Customer_Nav&$orderby=Customer_Nav/Name1`;
+        return context.read('/SAPAssetManager/Services/AssetManager.service', 'CustomerSalesData', [], queryOptions)
+            .then(results => {
+                if (results._array.length > 0 && salesOrg && distributionChannel && division) {  
+                        specifier.setEntitySet('CustomerSalesData');
+                        specifier.setDisplayValue('#Property:Customer_Nav/#Property:Name1');
+                        specifier.setReturnValue('{Customer}');
+                        specifier.setService('/SAPAssetManager/Services/AssetManager.service');
+                        specifier.setQueryOptions(queryOptions);
+                        return picker.setTargetSpecifier(specifier);
+                }
+                return picker.setTargetSpecifier(specifier);
+            });
+    } else {
+        specifier.setEntitySet('Customers');
+        specifier.setDisplayValue('{{#Property:Customer}} - {{#Property:Name1}}');
+        specifier.setReturnValue('{Customer}');
+        specifier.setQueryOptions('$orderby=Name1');
+        specifier.setService('/SAPAssetManager/Services/AssetManager.service');
+        return picker.setTargetSpecifier(specifier);
+    }
 }

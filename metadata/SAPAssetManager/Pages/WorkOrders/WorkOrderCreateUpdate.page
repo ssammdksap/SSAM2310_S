@@ -127,7 +127,7 @@
                             "IsEditable": "/SAPAssetManager/Rules/ServiceOrders/CreateUpdate/SoldToPartyLstPkrIsEditable.js",
                             "IsVisible": "/SAPAssetManager/Rules/WorkOrders/Details/IsServiceOrder.js",
                             "Value": "/SAPAssetManager/Rules/ServiceOrders/CreateUpdate/ServiceOrderCreateUpdateSoldToParty.js",
-                            "PickerItems": "/SAPAssetManager/Rules/ServiceOrders/CreateUpdate/ServiceOrderCreateSoldToPartyPickerItems.js"
+                            "PickerItems": []
                         },
                         {
                             "_Name": "AccountIndicatorLstPkr",
