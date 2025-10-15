@@ -7,8 +7,10 @@ export default function WorkOrderDetailsOnPageLoad(context) {
     libCom.removeStateVariable(context, 'IgnoreToolbarUpdate');
     libCom.removeStateVariable(context, 'ZMeterNumber');
     libCom.removeStateVariable(context, 'SerialNumOrderType');
+    libCom.removeStateVariable(context, 'ZOrderIDMeter');
     libCom.removeStateVariable(context, 'ZBusinessPartner');
     libCom.setStateVariable(context, 'SerialNumOrderType', context.binding.OrderType);
+    libCom.setStateVariable(context,'ZOrderIDMeter', context.binding.OrderId);
 
     //Store Work Order Device meter number
     if (context.binding.OrderISULinks[0].Device_Nav) {
