@@ -214,6 +214,10 @@
 		{
 			"Source": "/ZSAPAssetManager/Rules/WorkOrders/Meter/Activity/ActivityDetailsNav.js",
 			"Target": "/SAPAssetManager/Rules/WorkOrders/Meter/Activity/ActivityDetailsNav.js"
+		},
+		{
+			"Source": "/ZSAPAssetManager/Rules/Meter/CreateUpdate/DeviceMeterReadingsCreateUpdate.js",
+			"Target": "/SAPAssetManager/Rules/Meter/CreateUpdate/DeviceMeterReadingsCreateUpdate.js"
 		}
 
 	]

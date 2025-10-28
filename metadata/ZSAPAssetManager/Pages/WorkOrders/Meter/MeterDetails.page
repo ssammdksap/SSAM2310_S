@@ -128,7 +128,7 @@
 							{
 								"NumberOfLines": 1,
 								"Style": "GridTableRowText",
-								"Text": "/SAPAssetManager/Rules/Meter/Format/ReadingValue.js"
+								"Text": "/ZSAPAssetManager/Rules/Meter/Format/ZReadingValue.js"
 							}
 						],
 						"Layout": {
