@@ -47,8 +47,17 @@ export default function NavOnCompleteOperationPage(context, actionBinding) {
                         if (result) {
                             return ZCustomCheck.CheckUtilityAttachments(context).then(result2 => {
                                 if (result2) {
-                                	WorkOrderCompletionLibrary.getInstance().setCompleteFlag(context, true);
-                                    return WorkOrderCompletionLibrary.getInstance().openMainPage(context, false);
+                                  return ZCustomCheck.CheckUtilitySerialNumber(context).then(result3 => {
+                                  	//Check for serail number for order type 0013,0014,0015
+                                        if (result3) {
+                                            WorkOrderCompletionLibrary.getInstance().setCompleteFlag(context, true);
+                                            return WorkOrderCompletionLibrary.getInstance().openMainPage(context, false);
+
+                                        }
+                                        else{
+                                             return context.executeAction('/ZSAPAssetManager/Actions/WorkOrders/MobileStatus/ZOperationMobileStatusSerialNumber.action');
+                                        }
+                                    })
                                 }
                                 else {
                                     return context.executeAction('/ZSAPAssetManager/Actions/WorkOrders/MobileStatus/OperationMobileStatusAttachmentRequired.action');

@@ -90,16 +90,16 @@ export default function DeviceMeterReadingsCreateUpdate(context) {
         const threshold = 10 ** (decimalCount - 1);
 
         //Validate current reading with current reading pased on the PD
-        if (Math.abs(resultStr - ZPriviousReading) <= threshold) {
-            result = true;
-        } else { 
-            if ((OrderType == "0010" || OrderType == "0012") && ZPriviousReading && (String(dict.ReadingValue).replace(/\B(?=(\d{3})+(?!\d))/g, ",") < ZPriviousReading)) {
+        // if (Math.abs(resultStr - ZPriviousReading) <= threshold) {
+        //     result = true;
+        // } else { 
+        if ((OrderType == "0010" || OrderType == "0012") && ZPriviousReading && (String(dict.ReadingValue).replace(/\B(?=(\d{3})+(?!\d))/g, ",") < ZPriviousReading)) {
             //if (ZPriviousReading && (String(dict.ReadingValue).replace(/\B(?=(\d{3})+(?!\d))/g, ",") < ZPriviousReading)) {
-                result = false;
-                message = "Current reading must be garter than previous reading " + ZPriviousReading;
-                libCommon.executeInlineControlError(context, section.getControl('ReadingValue'), message);
-            }
+            result = false;
+            message = "Current reading must be garter than previous reading " + ZPriviousReading;
+            libCommon.executeInlineControlError(context, section.getControl('ReadingValue'), message);
         }
+        // }
 
         return result;
     }).then(validationResult => {

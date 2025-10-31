@@ -6,7 +6,6 @@ import common from '../../../../SAPAssetManager/Rules/Common/Library/CommonLibra
 
 export default function ZEnableMIGO(context) {
     const migoAllowedTypes = common.getAppParam(context, 'ZMIGO', 'OrderTypeEnable');
-    //const migoAllowedTypes = "YA01,0030,0019" // Added by krishna
     let migoAllowedTypesA = migoAllowedTypes.split(",");
 
     return context.read('/SAPAssetManager/Services/AssetManager.service', 'MyWorkOrderHeaders', [], "$filter=OrderId eq '" + context.binding.OrderId + "'").then(order => {

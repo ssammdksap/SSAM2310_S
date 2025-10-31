@@ -11,8 +11,7 @@
 		"ActivityText" : "#Control:DescriptionTitle/#Value",
 		"ActivityCodeGroup": "/SAPAssetManager/Rules/Notifications/GroupLstPkrValue.js",
         "ActivityCode" : "/SAPAssetManager/Rules/Notifications/CodeLstPkrValue.js",
-        "ActivitySortNumber" : "/SAPAssetManager/Rules/Notifications/Activity/ActivitySortNumber.js",
-        "ZReading" : "/ZSAPAssetManager/Rules/Notifications/Activity/ZGetMultifactorValue.js"
+        "ActivitySortNumber" : "/SAPAssetManager/Rules/Notifications/Activity/ActivitySortNumber.js"
 	},
     "Headers":
 	{

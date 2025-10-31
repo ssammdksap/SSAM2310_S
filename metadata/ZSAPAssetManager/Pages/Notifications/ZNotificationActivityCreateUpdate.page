@@ -95,16 +95,6 @@
 							"PlaceHolder": "Enter Reading",
 							"Enabled": true,
 							"IsEditable": true
-						},
-						{
-							"IsAutoResizing": true,
-							"_Type": "Control.Type.FormCell.Note",
-							"_Name": "QuantityFactor",
-							"IsVisible": false,
-							"Caption": "Multi Factor",
-							"PlaceHolder": "Enter Value",
-							"Enabled": true,
-							"IsEditable": true
 						}
 					],
 					"_Name": "FormCellSection0",
