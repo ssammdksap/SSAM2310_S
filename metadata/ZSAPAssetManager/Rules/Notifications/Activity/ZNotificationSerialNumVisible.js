@@ -10,24 +10,10 @@ export default function ZNotificationSerialNum(context) {
         SerialNumTypes = OrderIdParam;
     }
     let OrderIdParamTypesA = SerialNumTypes.split(",");
-    if (NewType == OrderIdParamTypesA) {
+    if (OrderIdParamTypesA.includes(NewType)) {
         return true;
     }
     else {
         return false;
     }
-
-
-    // return context.read('/SAPAssetManager/Services/AssetManager.service', 'MyWorkOrderHeaders', [], "$filter=OrderId eq '" + OrderId + "'").then(order => {
-    //     if (order.getItem.length > 0) {
-    //         if (order.getItem(0).OrderType == OrderIdParamTypesA) {
-    //             return true;
-    //         }
-    //         else{
-    //             return false;
-    //         }
-    //     }else{
-    //     	return true;
-    //     }
-    // });
 }
