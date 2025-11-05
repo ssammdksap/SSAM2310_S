@@ -1,6 +1,6 @@
 {
     "Caption": "/SAPAssetManager/Rules/WorkOrders/Header/WorkOrderHeader.js",
-    "OnLoaded": "/SAPAssetManager/Rules/WorkOrders/Details/WorkOrderDetailsOnPageLoad.js",
+    "OnLoaded": "/ZSAPAssetManager/Rules/WorkOrders/Details/ZWorkOrderDetailsOnPageLoad.js",
     "OnReturning": "/SAPAssetManager/Rules/WorkOrders/Details/WorkOrderDetailsOnPageReturning.js",
     "OnUnloaded": "/SAPAssetManager/Rules/Common/DetailsPageToolbar/ToolbarClassResetOnPageUnloaded.js",
     "ActionBar": {

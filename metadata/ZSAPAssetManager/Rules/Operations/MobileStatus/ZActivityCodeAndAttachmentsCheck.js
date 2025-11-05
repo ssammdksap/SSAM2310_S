@@ -272,13 +272,17 @@ export class ActivityCodeAndAttachmentsCheck {
     //Check for Serial number add for CS orders
     static CheckUtilitySerialNumber(context) {
         const SerialAllowedTypes = common.getAppParam(context, 'ZSERIALNUMENABLE', 'MeterOrderTypes');
-        let SerialAllowedTypesA = SerialAllowedTypes.split(",");
         let SerialNumberCode = "MTERSERL"
+        let SerialNumOrders = "0013,0014,0015"
         let SerialNumberCodeParam = common.getAppParam(context, 'ZEXCEPTIONS', 'MeterInsatallActType');
         if(SerialNumberCodeParam){
         	SerialNumberCode = SerialNumberCodeParam;
         }
+        if(SerialAllowedTypes){
+            SerialNumOrders = SerialAllowedTypes
+        }
 
+        let SerialAllowedTypesA = SerialNumOrders.split(",");
         return context.read('/SAPAssetManager/Services/AssetManager.service', 'MyWorkOrderHeaders', [], "$filter=OrderId eq '" + context.binding.OrderId + "'").then(order => {
             if (order.getItem.length > 0) {
                 if (SerialAllowedTypesA.includes(order.getItem(0).OrderType)) {

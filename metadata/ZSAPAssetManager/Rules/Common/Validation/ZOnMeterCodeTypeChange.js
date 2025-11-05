@@ -8,15 +8,46 @@ export default function ZOnMeterCodeTypeChange(context) {
     CommonLibrary.clearValidationOnInput(context);
     let MeterNumber = CommonLibrary.getStateVariable(context, 'ZMeterNumber');
     let SerialNumOrderType = CommonLibrary.getStateVariable(context, 'SerialNumOrderType');
+    let InstallSerialNum = CommonLibrary.getStateVariable(context, 'ZDeviceSerialNum');
+
 
     if (context.getValue()[0].ReturnValue == "MINS") {
         if (SerialNumOrderType == "0014") {
             let ScannerCtr = context.getPageProxy().getControl('FormCellContainer').getControl('ScannerButton');
             let DescriptionTitleCtr = context.getPageProxy().getControl('FormCellContainer').getControl('DescriptionTitle');
-            ScannerCtr.setVisible(false);
-            DescriptionTitleCtr.setEditable(false);
+            ScannerCtr.setVisible(true);
+            DescriptionTitleCtr.setEditable(true);
             DescriptionTitleCtr.setValue("");
-        } else {
+
+        } else if (SerialNumOrderType == "0013") {
+            let ScannerCtr = context.getPageProxy().getControl('FormCellContainer').getControl('ScannerButton');
+            let DescriptionTitleCtr = context.getPageProxy().getControl('FormCellContainer').getControl('DescriptionTitle');
+            if (InstallSerialNum) {
+                ScannerCtr.setVisible(false);
+                DescriptionTitleCtr.setEditable(false);
+                DescriptionTitleCtr.setValue(InstallSerialNum);
+            } else {
+                ScannerCtr.setVisible(true);
+                DescriptionTitleCtr.setEditable(true);
+                DescriptionTitleCtr.setValue("");
+            }
+        } else if (SerialNumOrderType == "0015") {
+            let ScannerCtr = context.getPageProxy().getControl('FormCellContainer').getControl('ScannerButton');
+            let DescriptionTitleCtr = context.getPageProxy().getControl('FormCellContainer').getControl('DescriptionTitle');
+            if (InstallSerialNum) {
+                ScannerCtr.setVisible(false);
+                DescriptionTitleCtr.setEditable(false);
+                DescriptionTitleCtr.setValue(InstallSerialNum);
+
+            }
+            else {
+                ScannerCtr.setVisible(true);
+                DescriptionTitleCtr.setEditable(true);
+                DescriptionTitleCtr.setValue("");
+
+            }
+        }
+        else {
             let ScannerCtr = context.getPageProxy().getControl('FormCellContainer').getControl('ScannerButton');
             let DescriptionTitleCtr = context.getPageProxy().getControl('FormCellContainer').getControl('DescriptionTitle');
             ScannerCtr.setVisible(true);
@@ -24,7 +55,7 @@ export default function ZOnMeterCodeTypeChange(context) {
             DescriptionTitleCtr.setValue("");
         }
 
-    }else {
+    } else {
         let ScannerCtr = context.getPageProxy().getControl('FormCellContainer').getControl('ScannerButton');
         let DescriptionTitleCtr = context.getPageProxy().getControl('FormCellContainer').getControl('DescriptionTitle');
         ScannerCtr.setVisible(false);

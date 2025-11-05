@@ -208,10 +208,6 @@
 			"Target": "/SAPAssetManager/Pages/Parts/PartReturn.page"
 		},
 		{
-			"Source": "/ZSAPAssetManager/Rules/WorkOrders/Details/WorkOrderDetailsOnPageLoad.js",
-			"Target": "/SAPAssetManager/Rules/WorkOrders/Details/WorkOrderDetailsOnPageLoad.js"
-		},
-		{
 			"Source": "/ZSAPAssetManager/Rules/WorkOrders/Meter/Activity/ActivityDetailsNav.js",
 			"Target": "/SAPAssetManager/Rules/WorkOrders/Meter/Activity/ActivityDetailsNav.js"
 		},
